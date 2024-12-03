@@ -11,8 +11,9 @@ public class GenericUnderOver(MathMLElement Element) : ToLatexConverter(Element)
 
         var content = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[0]).Convert();
         var accent = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[1]).Convert();
-
+        var cmd = GetDefaultCmd(this.Element.Name.Equals("under", StringComparison.OrdinalIgnoreCase));
+        
         return (Dicts.LatexAccents.Contains(accent)) ?
-            $"{accent}{{{content}}}" : $"{GetDefaultCmd(this.Element.Name.Equals("under", StringComparison.OrdinalIgnoreCase))}{{{accent}}}{{{content}}}";
+            $"{accent}{{{content}}}" : $"{cmd}{{{accent}}}{{{content}}}";
     }
 }
