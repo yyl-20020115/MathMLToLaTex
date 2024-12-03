@@ -4,15 +4,15 @@ public class MTable : ToLatexConverter
 {
     public MTable(MathMLElement Element) : base(Element)
     {
-        AddFlagsRecursively(Element.Children, "mtable", "innerTable");
+        ComposeFlagsRecursively(Element.Children, "mtable", "innerTable");
     }
-    public static void AddFlagsRecursively(MathMLElement[] Elements, string name, string flag)
+    public static void ComposeFlagsRecursively(MathMLElement[] Elements, string name, string flag)
     {
         foreach (var item in Elements)
         {
             if (item.Name == name)
-                item.Attributes[flag] = flag;
-            AddFlagsRecursively(item.Children, name, flag);
+                item.Attributes[flag] = "";
+            ComposeFlagsRecursively(item.Children, name, flag);
         }
     }
     public bool HasFlag(string flag) => this.Element.Attributes.ContainsKey(flag);

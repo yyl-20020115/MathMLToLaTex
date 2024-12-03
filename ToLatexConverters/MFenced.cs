@@ -12,12 +12,12 @@ public class MFenced(MathMLElement Element) : ToLatexConverter(Element)
 
     public static bool HasAny(MathMLElement[] elements, string name)
         => elements.Any(e => e.Name == name || HasAny(e.Children, name));
-    public override string Convert() {
-
-        var contents = 
+    public override string Convert()
+    {
+        var contents =
             this.Element.Children.Select(
                 child => MathMLElementToLatexConverterAdapter.Convert(child)).Select(c => c.Convert()).ToArray();
-        if(HasAny(this.Element.Children, "mtable"))
+        if (HasAny(this.Element.Children, "mtable"))
         {
             var contentWithoutWrapper = Utilities.JoinWithSeperators(contents, this.Seperators);
 
@@ -32,28 +32,28 @@ public class MFenced(MathMLElement Element) : ToLatexConverter(Element)
         }
 
     }
-    private static string GenericCommand = "matrix";
+    private static readonly string GenericCommand = "matrix";
 
-    public string GetCommand()
+    protected string GetCommand()
     {
-        if (Are(this.Seperators, "(", ")"))
+        if (Are("(", ")"))
             return "pmatrix";
-        else if (Are(this.Seperators, "[", "]"))
+        else if (Are("[", "]"))
             return "bmatrix";
-        else if (Are(this.Seperators, "{", "}"))
+        else if (Are("{", "}"))
             return "Bmatrix";
-        else if (Are(this.Seperators, "|", "|"))
+        else if (Are("|", "|"))
             return "vmatrix";
-        else if (Are(this.Seperators, "||", "||"))
+        else if (Are("||", "||"))
             return "Vmatrix";
-        else if (this.Open!=this.Close)
+        else if (this.Open != this.Close)
             return GenericCommand;
-        else 
+        else
             return "bmatrix";
     }
 
-    public static bool Are(string[] seperators, string open, string close) 
-        => seperators[0] == open && seperators[1] == close;
+    protected bool Are(string open, string close)
+        => this.Open == open && this.Close == close;
 
 }
 

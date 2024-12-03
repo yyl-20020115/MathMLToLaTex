@@ -15,9 +15,9 @@ public class MMultiscripts(MathMLElement Element) : ToLatexConverter(Element)
     {
         if (this.Element.Children.Length < 3) throw new InvalidDataException(nameof(Element.Children));
 
-        var _base = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[0]).Convert();
+        var baseText = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[0]).Convert();
 
-        return this.ConvertPreScrpt() + WrapIfSpaces(_base) + ConvertPostScript();
+        return this.ConvertPreScrpt() + WrapIfSpaces(baseText) + ConvertPostScript();
 
     }
     private string ConvertPreScrpt()
@@ -48,7 +48,7 @@ public class MMultiscripts(MathMLElement Element) : ToLatexConverter(Element)
     {
         var children = this.Element.Children;
 
-        if (IsPrescript(children[1])) return "";
+        if (IsPrescript(children[1]) || children.Length < 3) return "";
 
         var sub = children[1];
         var sup = children[2];
