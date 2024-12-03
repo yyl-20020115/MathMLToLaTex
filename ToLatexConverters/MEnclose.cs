@@ -25,9 +25,9 @@ public class MEnclose(MathMLElement Element) : ToLatexConverter(Element)
             "bottom" => $"\\underline {{{content}}}",
             "updiagonalstrike" => $"\\cancel{{{content}}}",
             "downdiagonalstrike" => $"\\bcancel{{{content}}}",
-            "updiagonalarrow" => $"\\cancelto{{}}{content}}}",
+            "updiagonalarrow" => $"\\cancelto{{}}{{{content}}}",
             "madruwb" => $"\\underline{{{content}\\right |}}",
-            "phasorangle" => $"{{\\angle \\underline{{{content}}} }}",
+            "phasorangle" => $"{{\\angle \\underline{{{content}}}}}",
             _ => $"\\overline{{\\left.\\right){content}}}",
         };
     }
