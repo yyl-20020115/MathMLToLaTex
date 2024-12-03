@@ -2,5 +2,5 @@
 
 public class MMultiscripts(MathMLElement Element) : ToLatexConverter(Element)
 {
-    public override string Convert() => "";
+    public override string Convert() => ""; 
 }
