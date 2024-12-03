@@ -14,7 +14,7 @@ public class MText(MathMLElement Element) : ToLatexConverter(Element)
         _ => ["\\text"],
     };
 
-    public override string Convert() => ""; 
+    public override string Convert() => "";  
 
 
 }
