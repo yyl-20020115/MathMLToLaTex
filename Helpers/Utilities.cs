@@ -20,7 +20,7 @@ public static class Utilities
                 builder.Append(seperators[i]);
             }else if(seperators.Length > 0)
             {
-                builder.Append(seperators[^1]);
+                builder.Append(seperators[seperators.Length-1]);
             }
             else
             {
