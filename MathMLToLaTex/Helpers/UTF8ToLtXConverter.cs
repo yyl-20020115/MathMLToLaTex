@@ -1,17 +1,27 @@
-﻿namespace MathMLToLaTex.Helpers;
+﻿using System.Text.RegularExpressions;
+
+namespace MathMLToLaTex.Helpers;
 
 public static class UTF8ToLtXConverter
 {
 
-    public static string Convert(string t) => char.IsLetterOrDigit(t, 0)
-            ? t
-            : (VowelsWithAccents.TryGetValue(t, out var v)
-            ? (AccentToLTXCmd.TryGetValue(v.accent, out var cmd) ? cmd : $"\\{cmd}{{{v.vowel}}}")
-            : (SpecialFontChars.TryGetValue(t, out var sf))
-            ? $"\\{sf.letter}{{{sf.fontcmd}}}"
-            : t)
-            ;
-
+    public static readonly Regex LetterOrDigit = new("[A-Za-z0-9]");
+    public static string Convert(string t)
+    {
+        if (string.IsNullOrEmpty(t)|| LetterOrDigit.IsMatch(t)) return t;
+        if(VowelsWithAccents.TryGetValue(t, out var v))
+        {
+            if(AccentToLTXCmd.TryGetValue(v.accent, out var cmd))
+            {
+                return $"\\{cmd}{{{v.vowel}}}";
+            }
+        }
+        if (SpecialFontChars.TryGetValue(t, out var sf))
+        {
+            return $"\\{sf.fontcmd}{{{sf.letter}}}";
+        }
+        return t;
+    }
     public static readonly char[] LatexAccentLetters =  [
             'a'
          , 'e'
@@ -142,7 +152,7 @@ public static class UTF8ToLtXConverter
         ["ę"] = ("e", "˙"),
         ["ě"] = ("e", "ˇ"),
         ["ȇ"] = ("i", "^"),
-        ["ё"] = ("'", "'"),
+        ["ё"] = ("e", "¨"),
         ["ē"] = ("e", "-"),
         ["í"] = ("i", "´"),
         ["ì"] = ("i", "`"),
@@ -190,7 +200,7 @@ public static class UTF8ToLtXConverter
         ["Ã"] = ("A", "~"),
         ["Ä"] = ("A", "¨"),
         ["Å"] = ("A", "˚"),
-        ["Å"] = ("'", "'"),
+        ["Å"] = ("A", "˚"),
         ["Ȧ"] = ("A", "˙"),
         ["Ă"] = ("A", "˘"),
         ["Ǎ"] = ("A", "ˇ"),
@@ -363,39 +373,39 @@ public static class UTF8ToLtXConverter
         ["𝟟"] = ("7", "mathbb"),
         ["𝟠"] = ("8", "mathbb"),
         ["𝟡"] = ("9", "mathbb"),
-        ["𝒜"] = ("A", "mathca"),
-        ["𝓐"] = ("A", "mathca"),
-        ["ℬ"] = ("B", "mathca"),
-        ["𝒞"] = ("C", "mathca"),
-        ["𝒟"] = ("D", "mathca"),
-        ["𝓓"] = ("D", "mathca"),
-        ["ℰ"] = ("E", "mathca"),
-        ["ℱ"] = ("F", "mathca"),
-        ["𝓕"] = ("F", "mathca"),
-        ["𝒢"] = ("G", "mathca"),
-        ["ℋ"] = ("H", "mathca"),
-        ["ℐ"] = ("I", "mathca"),
-        ["𝒥"] = ("J", "mathca"),
-        ["𝒦"] = ("K", "mathca"),
-        ["ℒ"] = ("L", "mathca"),
-        ["𝓛"] = ("L", "mathca"),
-        ["ℳ"] = ("M", "mathca"),
-        ["𝒩"] = ("N", "mathca"),
-        ["𝒪"] = ("O", "mathca"),
-        ["𝓞"] = ("O", "mathca"),
-        ["𝒫"] = ("P", "mathca"),
-        ["𝒬"] = ("Q", "mathca"),
-        ["ℛ"] = ("R", "mathca"),
-        ["𝕽"] = ("R", "mathca"),
-        ["℟"] = ("R", "mathca"),
-        ["𝒮"] = ("S", "mathca"),
-        ["𝒯"] = ("T", "mathca"),
-        ["𝒰"] = ("U", "mathca"),
-        ["𝒱"] = ("V", "mathca"),
-        ["𝒲"] = ("W", "mathca"),
-        ["𝒳"] = ("X", "mathca"),
-        ["𝒴"] = ("Y", "mathca"),
-        ["𝒵"] = ("Z", "mathca"),
+        ["𝒜"] = ("A", "mathcal"),
+        ["𝓐"] = ("A", "mathcal"),
+        ["ℬ"] = ("B", "mathcal"),
+        ["𝒞"] = ("C", "mathcal"),
+        ["𝒟"] = ("D", "mathcal"),
+        ["𝓓"] = ("D", "mathcal"),
+        ["ℰ"] = ("E", "mathcal"),
+        ["ℱ"] = ("F", "mathcal"),
+        ["𝓕"] = ("F", "mathcal"),
+        ["𝒢"] = ("G", "mathcal"),
+        ["ℋ"] = ("H", "mathcal"),
+        ["ℐ"] = ("I", "mathcal"),
+        ["𝒥"] = ("J", "mathcal"),
+        ["𝒦"] = ("K", "mathcal"),
+        ["ℒ"] = ("L", "mathcal"),
+        ["𝓛"] = ("L", "mathcal"),
+        ["ℳ"] = ("M", "mathcal"),
+        ["𝒩"] = ("N", "mathcal"),
+        ["𝒪"] = ("O", "mathcal"),
+        ["𝓞"] = ("O", "mathcal"),
+        ["𝒫"] = ("P", "mathcal"),
+        ["𝒬"] = ("Q", "mathcal"),
+        ["ℛ"] = ("R", "mathcal"),
+        ["𝕽"] = ("R", "mathcal"),
+        ["℟"] = ("R", "mathcal"),
+        ["𝒮"] = ("S", "mathcal"),
+        ["𝒯"] = ("T", "mathcal"),
+        ["𝒰"] = ("U", "mathcal"),
+        ["𝒱"] = ("V", "mathcal"),
+        ["𝒲"] = ("W", "mathcal"),
+        ["𝒳"] = ("X", "mathcal"),
+        ["𝒴"] = ("Y", "mathcal"),
+        ["𝒵"] = ("Z", "mathcal"),
         ["𝔄"] = ("A", "mathfr"),
         ["𝔅"] = ("B", "mathfr"),
         ["ℭ"] = ("C", "mathfr"),

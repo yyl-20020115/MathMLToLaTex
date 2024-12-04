@@ -5,7 +5,7 @@ namespace MathMLToLaTex.ToLatexConverters;
 public class MText(MathMLElement Element) : ToLatexConverter(Element)
 {
     public static string[] GetCommands(string variant)
-        => string.IsNullOrEmpty(variant) ? ["normal"] : (variant switch
+        => string.IsNullOrEmpty(variant) ? ["\\text"] : (variant switch
         {
             "bold" => ["\\textbf"],
             "italic" => ["\\textit"],
@@ -18,13 +18,13 @@ public class MText(MathMLElement Element) : ToLatexConverter(Element)
 
     public static string Apply(string value, string variant)
     {
-        var builder = new StringBuilder();
+        var builder = "";
         var cmds = GetCommands(variant);
         for( var i = 0;i<cmds.Length;i++)
         {
-            builder.Append(i == 0 ? $"{cmds[i]}{{{value}}}" : $"{cmds[i]}{{{builder}}}");
+            builder = (i == 0 ? $"{cmds[i]}{{{value}}}" : $"{cmds[i]}{{{builder}}}");
         }
-        return builder.ToString();
+        return builder;
     }
 
 
@@ -32,10 +32,12 @@ public class MText(MathMLElement Element) : ToLatexConverter(Element)
     {
         public string Text = "";
         public bool IsAlpha = true;
+        public Block Clone() => new() { Text = this.Text, IsAlpha = this.IsAlpha };
+        public override string ToString() => this.Text;
     }
     public override string Convert()
     {
-        var variant = this.Element.Attributes.TryGetValue("mathvariant", out var v) ? v : "";
+        var variant = this.Element.Attributes.TryGetValue("mathvariant", out var v) ? v : "normal";
         var builder = new StringBuilder();
         var value = this.Element.Value;
 
@@ -43,7 +45,7 @@ public class MText(MathMLElement Element) : ToLatexConverter(Element)
         List<Block> results = [];
         if (blocks.Length > 0)
         {
-            var last = blocks[0];
+            var last = blocks[0].Clone();
             for (var i = 1; i < blocks.Length; i++)
             {
                 var current = blocks[i];
@@ -54,9 +56,10 @@ public class MText(MathMLElement Element) : ToLatexConverter(Element)
                 else
                 {
                     results.Add(last);
-                    last = current;
+                    last = current.Clone();
                 }
             }
+            results.Add(last);
         }
         results.ForEach(block=>
         {

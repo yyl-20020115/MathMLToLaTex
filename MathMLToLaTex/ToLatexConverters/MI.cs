@@ -18,8 +18,8 @@ public class MI(MathMLElement Element) : ToLatexConverter(Element)
     }
 
     public static string Apply(string value) 
-        => Dicts.MathSymbolsByChar.TryGetValue(value, out var c0) ? c0 :
-        Dicts.MathSymbolsByGlyph.TryGetValue(value, out var c1) ? c1 :
+        => Dicts.MathSymbolsByGlyph.TryGetValue(value, out var c0) ? c0 :
+        Dicts.MathSymbolsByChar.TryGetValue(value, out var c1) ? c1 :
         Dicts.NumberByGlyph.TryGetValue(value, out var c2) ? c2 :
         UTF8ToLtXConverter.Convert(value)
         ;

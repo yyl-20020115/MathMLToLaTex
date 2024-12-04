@@ -10,6 +10,6 @@ public class MUnderover(MathMLElement Element) : ToLatexConverter(Element)
         var underChild = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[1]).Convert();
         var overChild = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[2]).Convert();
 
-        return $"{baseChild}_{underChild}^{overChild}";
+        return $"{baseChild}_{{{underChild}}}^{{{overChild}}}";
     }
 }

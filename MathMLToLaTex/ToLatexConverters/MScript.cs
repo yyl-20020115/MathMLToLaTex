@@ -11,6 +11,8 @@ public class MScript(MathMLElement Element) : ToLatexConverter(Element)
     }
     protected static string ConvertScript(MathMLElement element)
         => new BracketWrapper().Wrap(MathMLElementToLatexConverterAdapter.Convert(element).Convert());
+    protected static string ConvertScriptNoBracket(MathMLElement element)
+        => MathMLElementToLatexConverterAdapter.Convert(element).Convert();
 
 }
 

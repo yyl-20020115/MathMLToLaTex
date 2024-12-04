@@ -17,16 +17,16 @@ public class MEnclose(MathMLElement Element) : ToLatexConverter(Element)
         else 
             return notation switch
         {
-            "actuarial" => $"\\overline{{\\left.{content}\\right |}}",
+            "actuarial" => $"\\overline{{\\left.{content}\\right|}}",
             "radical" => $"\\sqrt{{{content}}}",
-            "left" => $"\\left |{content}",
-            "right" => $"{content}\\right |",
-            "top" => $"\\overline {{{content}}}",
-            "bottom" => $"\\underline {{{content}}}",
+            "left" => $"\\left|{content}",
+            "right" => $"{content}\\right|",
+            "top" => $"\\overline{{{content}}}",
+            "bottom" => $"\\underline{{{content}}}",
             "updiagonalstrike" => $"\\cancel{{{content}}}",
             "downdiagonalstrike" => $"\\bcancel{{{content}}}",
             "updiagonalarrow" => $"\\cancelto{{}}{{{content}}}",
-            "madruwb" => $"\\underline{{{content}\\right |}}",
+            "madruwb" => $"\\underline{{{content}\\right|}}",
             "phasorangle" => $"{{\\angle \\underline{{{content}}}}}",
             _ => $"\\overline{{\\left.\\right){content}}}",
         };

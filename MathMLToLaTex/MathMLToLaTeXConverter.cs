@@ -16,7 +16,7 @@ public static class MathMLToLaTeXConverter
     public static XElement[] Parse(string mathml)
     {
         var element = XElement.Parse(MsWordPrefix.Replace(LineBreaks.Replace(mathml, ""), ""));
-        return (element.Name.LocalName.ToLower() == "math") ? [element]
-        : element.Elements().Where(e => e.Name.LocalName.ToLower() == "math").ToArray();
+        return (element.Name.LocalName.Equals("math", StringComparison.OrdinalIgnoreCase)) ? [element]
+        : element.Elements().Where(e => e.Name.LocalName.Equals("math", StringComparison.OrdinalIgnoreCase)).ToArray();
     }
 }

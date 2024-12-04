@@ -1,7 +1,5 @@
 ﻿namespace MathMLToLaTex.Helpers.Wrappers;
 
-public class GenericWrapper : Wrapper
+public class GenericWrapper(string Open, string Close) : Wrapper("\\left"+ Open, "\\right"+ Close)
 {
-    public GenericWrapper() : base("\\left", "\\right") { }
-
 }

@@ -2,6 +2,48 @@
 
 public static class Dicts
 {
+    static string ProcessText(string s)
+    {
+        var r = s;
+        if(s.StartsWith("&#x")&& s.EndsWith(";"))
+        {
+            r = "";
+            var parts = s.Split([';'], StringSplitOptions.RemoveEmptyEntries);
+            foreach(var part in parts)
+            {
+                var hex = part.Substring(3);
+                try
+                {
+                    var hexchar = Convert.ToInt16(hex, 16);
+                    r += ((char)hexchar).ToString();
+                }catch(Exception ex)
+                {
+
+                }
+            }
+        }
+        return r;
+    }
+    static void ProcessDict(Dictionary<string,string> dict)
+    {
+        Dictionary<string, string> result = [];
+        foreach(var item in dict)
+        {
+            result.Add(
+                ProcessText(item.Key),
+                ProcessText(item.Value));
+        }
+        dict.Clear();
+        foreach(var item in result)
+        {
+            dict.Add(item.Key, item.Value);
+        }
+    }
+    static Dicts()
+    {
+        ProcessDict(MathOperatorsByChar);
+        ProcessDict(MathSymbolsByChar);
+    }
     public static readonly Dictionary<string, string> MathOperatorsByChar = new()
     {
         ["_"] = "\\underline",

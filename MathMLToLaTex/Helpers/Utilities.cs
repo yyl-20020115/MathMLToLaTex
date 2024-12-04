@@ -5,7 +5,7 @@ namespace MathMLToLaTex.Helpers;
 
 public static class Utilities
 {
-    public static string JoinWithSeperators(string[] parts, string[] seperators)
+    public static string JoinWithSeparators(string[] parts, string[] seperators)
     {
         var builder = new StringBuilder();
         for (int i = 0; i < parts.Length; i++)

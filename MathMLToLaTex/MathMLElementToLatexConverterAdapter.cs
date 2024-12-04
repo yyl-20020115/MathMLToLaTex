@@ -31,7 +31,7 @@ public static class MathMLElementToLatexConverterAdapter
         ["void"] = typeof(ToLatexConverters.Void),
 
     };
-    public static ToLatexConverter DefaultConverter = new ToLatexConverters.Void(MathMLElement.Default);
+    public static readonly ToLatexConverter DefaultConverter = new ToLatexConverters.Void(MathMLElement.Default);
     public static ToLatexConverter Convert(MathMLElement mathMLElement) 
         =>(ConverterTypes.TryGetValue(mathMLElement.Name.ToLower(), out var type)
             ? type : typeof(ToLatexConverters.GenericSpacingWrapper))?.GetConstructor([typeof(MathMLElement)])?.

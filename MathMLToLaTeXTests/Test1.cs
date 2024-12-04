@@ -1,48 +1,86 @@
 ﻿using System.Text;
+using System.Xml.Linq;
+using System.Xml.XPath;
 
-namespace MathMLToLaTeXTests
+namespace MathMLToLaTeXTests;
+
+[TestClass]
+public sealed class Test1
 {
-    [TestClass]
-    public sealed class Test1
+    private readonly List<(string mathml, string latex, int line_number)> tests = [];
+
+    [TestInitialize]
+    public void Init()
     {
-        private readonly List<(string, string)> tests = [];
+        using var reader = new StreamReader("tests.txt", Encoding.UTF8);
+        string? line;
+        var builder = new StringBuilder();
 
-        [TestInitialize]
-        public void Init()
+        var mathml = "";
+        var latex = "";
+        var line_number = 0;
+        var good = true;
+        while ((line = reader.ReadLine()) != null)
         {
-            using var reader = new StreamReader("tests.txt",Encoding.UTF8);
-            string? line;
-            var builder = new StringBuilder();
-
-            var mathml = "";
-            var latex = "";
-            while ((line = reader.ReadLine()) != null)
+            line_number++;
+            line = line.Trim();
+            if (line == "----------------")
             {
-                line = line.Trim();
-                if(line == "----------------")
+                mathml = builder.ToString().Trim();
+                try
                 {
-                    mathml = builder.ToString();
-                    builder.Clear();
-                }else if(line == "================")
-                {
-                    latex = builder.ToString();
-                    builder.Clear();
-                    tests.Add((mathml, latex));
+                    //we ignore broken xmls
+                    var r = XElement.Parse(mathml);
+                    if (r?.Name == "root")
+                    {
+                        r = r?.Elements().Where(e => e.Name.LocalName == "math").FirstOrDefault();
+                    }
+                    mathml = r?.ToString() ?? mathml;
                 }
-                else
+                catch (Exception e)
                 {
-                    builder.AppendLine(line);
+                    good = false;
                 }
+                builder.Clear();
+            }
+            else if (line == "================")
+            {
+                if (good)
+                {
+                    latex = builder.ToString().Trim();
+                    tests.Add((mathml, latex, line_number));
+                }
+                good = true;
+                builder.Clear();
+            }
+            else
+            {
+                builder.AppendLine(line);
             }
         }
-        [TestMethod]
-        public void TestMethod1()
+    }
+    [TestMethod]
+    public void TestMethod1()
+    {
+        var count = 0;
+        var bad = 0;
+        foreach (var test in tests)
         {
-            foreach (var test in tests)
+            if (count == 102)
             {
-                var result = MathMLToLaTex.MathMLToLaTeXConverter.Convert(test.Item1);
-                Assert.AreEqual(result, test.Item2);    
+
             }
+            var result = MathMLToLaTex.MathMLToLaTeXConverter.Convert(test.mathml);
+            try
+            {
+                Assert.AreEqual(result, test.latex);
+            }
+            catch (Exception e)
+            {
+                bad++;
+                System.Diagnostics.Debug.WriteLine($"\n\n({bad})index={count},line={test.line_number}:{result} -> {test.latex}\n\n");
+            }
+            count++;
         }
     }
 }

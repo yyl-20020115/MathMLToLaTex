@@ -7,7 +7,7 @@ public class MFenced(MathMLElement Element) : ToLatexConverter(Element)
 {
     public readonly string Open = Element.Attributes.TryGetValue("open", out var open) ? open : "";
     public readonly string Close = Element.Attributes.TryGetValue("close", out var close) ? close : "";
-    public readonly string[] Seperators = (Element.Attributes.TryGetValue("seperators", out var seperators)
+    public readonly string[] Separators = (Element.Attributes.TryGetValue("separators", out var seperators)
             ? seperators : "").ToCharArray().Select(c => c.ToString()).ToArray();
 
     public static bool HasAny(MathMLElement[] elements, string name)
@@ -19,16 +19,18 @@ public class MFenced(MathMLElement Element) : ToLatexConverter(Element)
                 child => MathMLElementToLatexConverterAdapter.Convert(child)).Select(c => c.Convert()).ToArray();
         if (HasAny(this.Element.Children, "mtable"))
         {
-            var contentWithoutWrapper = Utilities.JoinWithSeperators(contents, this.Seperators);
-
-            return new Wrapper(this.Open, this.Close).Wrap(contentWithoutWrapper);
+            var command = GetCommand();
+            var contentWithoutWrapper = string.Join("", contents);
+            var matrix = $"\\begin{{{command}}}\n{contentWithoutWrapper}\n\\end{{{command}}}";
+            return command == GenericCommand ? new GenericWrapper(this.Open, this.Close).Wrap(matrix) : matrix;
         }
         else
         {
-            var command = GetCommand();
-            var contentWithoutWrapper = string.Join("", contents);
-            var matrix = $"\\begin{{{command}}}\n${contentWithoutWrapper}\n\\end{{{command}}}";
-            return command == GenericCommand ? new Wrapper(this.Open, this.Close).Wrap(matrix) : matrix;
+            var contentWithoutWrapper = Utilities.JoinWithSeparators(contents, this.Separators);
+
+            return new GenericWrapper(
+                !string.IsNullOrEmpty(this.Open) ? this.Open : "(",
+                !string.IsNullOrEmpty(this.Close) ? this.Close : ")").Wrap(contentWithoutWrapper);
         }
 
     }

@@ -24,23 +24,32 @@ public class MMultiscripts(MathMLElement Element) : ToLatexConverter(Element)
     {
         var children = this.Element.Children;
         MathMLElement sub, sup;
-        if (children.Length >= 4 && IsPrescript(children[1]))
+        if (children.Length >= 3 && IsPrescript(children[1]))
         {
             sub = children[2];
-            sup = children[3];
+            sup = children.Length> 3 ? children[3]:null;
         }
-        else if (children.Length >= 6 && IsPrescript(children[3]))
+        else if (children.Length >= 5 && IsPrescript(children[3]))
         {
             sub = children[4];
-            sup = children[5];
+            sup = children.Length>5 ? children[5]:null;
         }
         else
             return "";
 
-        var subLatex = MathMLElementToLatexConverterAdapter.Convert(sub).Convert();
-        var supLatex = MathMLElementToLatexConverterAdapter.Convert(sup).Convert();
+        if (sup != null)
+        {
+            var subLatex = MathMLElementToLatexConverterAdapter.Convert(sub).Convert();
+            var supLatex = MathMLElementToLatexConverterAdapter.Convert(sup).Convert();
 
-        return $"\\_{{{subLatex}}}^{{{supLatex}}}";
+            return $"\\_{{{subLatex}}}^{{{supLatex}}}";
+        }
+        else
+        {
+            var subLatex = MathMLElementToLatexConverterAdapter.Convert(sub).Convert();
+            return $"\\_{{{subLatex}}}^{{}}";
+
+        }
 
     }
 
