@@ -30,7 +30,7 @@ public sealed class Test1
                 try
                 {
                     //we ignore broken xmls
-                    var r = XElement.Parse(mathml);
+                    var r = XElement.Parse(mathml,LoadOptions.PreserveWhitespace);
                     if (r?.Name == "root")
                     {
                         r = r?.Elements().Where(e => e.Name.LocalName == "math").FirstOrDefault();
@@ -66,10 +66,6 @@ public sealed class Test1
         var bad = 0;
         foreach (var test in tests)
         {
-            if (count == 102)
-            {
-
-            }
             var result = MathMLToLaTex.MathMLToLaTeXConverter.Convert(test.mathml);
             try
             {

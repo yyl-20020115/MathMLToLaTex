@@ -5,7 +5,7 @@ namespace MathMLToLaTex.ToLatexConverters;
 public class MText(MathMLElement Element) : ToLatexConverter(Element)
 {
     public static string[] GetCommands(string variant)
-        => string.IsNullOrEmpty(variant) ? ["\\text"] : (variant switch
+        => string.IsNullOrEmpty(variant) ? [] : (variant switch
         {
             "bold" => ["\\textbf"],
             "italic" => ["\\textit"],
@@ -63,7 +63,7 @@ public class MText(MathMLElement Element) : ToLatexConverter(Element)
         }
         results.ForEach(block=>
         {
-            builder.Append(Apply(block.IsAlpha?block.Text: new MI(new MathMLElement("", block.Text)).Convert(), variant));
+            builder.Append(block.IsAlpha? Apply(block.Text,variant): new MI(new MathMLElement("", block.Text)).Convert());
         });
 
         return builder.ToString();
