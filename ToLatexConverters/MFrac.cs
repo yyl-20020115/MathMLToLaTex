@@ -12,7 +12,7 @@ public class MFrac(MathMLElement Element) : ToLatexConverter(Element)
         var upper = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[0]).Convert();
         var lower = MathMLElementToLatexConverterAdapter.Convert(this.Element.Children[1]).Convert();
 
-        return this.IsBevelled ? $"{new ParenthesisWrapper().WrapIfMore(upper)}/{new ParenthesisWrapper().WrapIfMore(lower)}" : $"\\frac{upper}{lower}";
+        return this.IsBevelled ? $"{new ParenthesisWrapper().WrapIfMore(upper)}/{new ParenthesisWrapper().WrapIfMore(lower)}" : $"\\frac{{{upper}}}{{{lower}}}";
     }
 }
 

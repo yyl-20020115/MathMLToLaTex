@@ -3,7 +3,7 @@ using System.Xml.Linq;
 
 namespace MathMLToLaTex;
 
-public static class MathMLToLaTeX
+public static class MathMLToLaTeXConverter
 {
     private static readonly Regex LineBreaks = new ("\\n|\\r\\n|\\r");
     private static readonly Regex MsWordPrefix = new("mml:");

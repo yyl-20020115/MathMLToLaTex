@@ -33,7 +33,7 @@ public static class MathMLElementToLatexConverterAdapter
     };
     public static ToLatexConverter DefaultConverter = new ToLatexConverters.Void(MathMLElement.Default);
     public static ToLatexConverter Convert(MathMLElement mathMLElement) 
-        =>( ConverterTypes.TryGetValue(mathMLElement.Name.ToLower(), out var type)
+        =>(ConverterTypes.TryGetValue(mathMLElement.Name.ToLower(), out var type)
             ? type : typeof(ToLatexConverters.GenericSpacingWrapper))?.GetConstructor([typeof(MathMLElement)])?.
-                Invoke(null, [typeof(MathMLElement)]) as ToLatexConverter ?? DefaultConverter;
+                Invoke([mathMLElement]) as ToLatexConverter ?? DefaultConverter;
 }
