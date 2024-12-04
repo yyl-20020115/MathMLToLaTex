@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathMLToLaTeX", "MathMLToLaTeX.csproj", "{F5040A95-EA42-4744-BB5A-F2199FB9F9B6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSDNLaTexWordAddIn", "..\CSDNLaTexWordAddIn\CSDNLaTexWordAddIn.csproj", "{A3069F69-717F-4DD6-A39C-D8AC4C82A3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathMLToLaTeX", "MathMLToLaTex\MathMLToLaTeX.csproj", "{B72B763B-8BB1-4881-B64A-5E27DAE00DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathMLToLaTeXTests", "MathMLToLaTeXTests\MathMLToLaTeXTests.csproj", "{E13A067E-6CFB-4068-94BA-F17CDD613A48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F5040A95-EA42-4744-BB5A-F2199FB9F9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5040A95-EA42-4744-BB5A-F2199FB9F9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5040A95-EA42-4744-BB5A-F2199FB9F9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5040A95-EA42-4744-BB5A-F2199FB9F9B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A3069F69-717F-4DD6-A39C-D8AC4C82A3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3069F69-717F-4DD6-A39C-D8AC4C82A3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3069F69-717F-4DD6-A39C-D8AC4C82A3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3069F69-717F-4DD6-A39C-D8AC4C82A3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72B763B-8BB1-4881-B64A-5E27DAE00DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72B763B-8BB1-4881-B64A-5E27DAE00DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72B763B-8BB1-4881-B64A-5E27DAE00DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72B763B-8BB1-4881-B64A-5E27DAE00DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E13A067E-6CFB-4068-94BA-F17CDD613A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13A067E-6CFB-4068-94BA-F17CDD613A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13A067E-6CFB-4068-94BA-F17CDD613A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13A067E-6CFB-4068-94BA-F17CDD613A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

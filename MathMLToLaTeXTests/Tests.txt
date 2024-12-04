@@ -1,0 +1,4076 @@
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="normal"> Theorem of Pythagoras </mtext>
+  </math>
+</root>
+
+----------------
+\text{ Theorem of Pythagoras }
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="bold"> Theorem of Pythagoras </mtext>
+  </math>
+</root>
+
+----------------
+\textbf{ Theorem of Pythagoras }
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="italic"> Theorem of Pythagoras </mtext>
+  </math>
+</root>
+
+----------------
+\textit{ Theorem of Pythagoras }
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="bold-italic"> Theorem of Pythagoras </mtext>
+  </math>
+</root>
+
+----------------
+\textbf{\textit{ Theorem of Pythagoras }}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="double-struck">R</mtext>
+  </math>
+</root>
+
+----------------
+\mathbb{R}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="fraktur">Creepy</mtext>
+  </math>
+</root>
+
+----------------
+\mathfrak{Creepy}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="bold-fraktur">Creepy</mtext>
+  </math>
+</root>
+
+----------------
+\mathfrak{Creepy}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="monospace">simple text</mtext>
+  </math>
+</root>
+
+----------------
+\mathtt{simple text}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="script">Creepy</mtext>
+  </math>
+</root>
+
+----------------
+\text{Creepy}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext mathvariant="bold-script">Creepy</mtext>
+  </math>
+</root>
+
+----------------
+\text{Creepy}
+================
+<root><math><mi>a</mi></math></root>
+----------------
+a
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi mathvariant="normal">Δ</mi>
+  <mi>x</mi>
+</math>
+----------------
+\Delta x
+================
+
+<math>
+  <msup>
+    <mrow>
+      <mi mathvariant="double-struck">R</mi>
+    </mrow>
+    <mrow>
+      <mi>n</mi>
+    </mrow>
+  </msup>
+</math>
+
+----------------
+\mathbb{R}^{n}
+================
+<math><mi>b</mi></math>
+----------------
+b
+================
+<root><math><mi> a </mi></math></root>
+----------------
+a
+================
+<root><math><mi> &#x221E; </mi></math></root>
+----------------
+\infty
+================
+<root><math><mi>  </mi></math></root>
+----------------
+\textrm{ }
+================
+
+<root>
+  <math>
+    <mo>+</mo>
+  </math>
+</root>
+
+----------------
++
+================
+
+<math>
+  <mi>x</mi>
+  <mo>=</mo>
+  <mn>4</mn>
+  <mrow>
+    <mo>/</mo>
+  </mrow>
+  <mn>5</mn>
+</math>
+
+----------------
+x = 4 / 5
+================
+
+<root>
+  <math>
+    <mo>*</mo>
+  </math>
+</root>
+
+----------------
+\star
+================
+
+<root>
+  <math>
+    <mo>b</mo>
+  </math>
+</root>
+
+----------------
+b
+================
+
+<root>
+  <math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstyle displaystyle="true">
+      <mi>a</mi>
+      <mo>&#x21D2;</mo>
+      <mi>b</mi>
+    </mstyle>
+  </math>
+</root>
+
+----------------
+a \Rightarrow b
+================
+
+<root>
+  <math>
+    <mrow>
+      <mn>2</mn>
+      <mo>+</mo>
+      <mn>2</mn>
+    </mrow>
+  </math>
+</root>
+
+----------------
+2 + 2
+================
+
+<root>
+  <math>
+    <msqrt>
+      <mn>2</mn>
+    </msqrt>
+  </math>
+</root>
+
+----------------
+\sqrt{2}
+================
+
+<root>
+  <math>
+    <msqrt>
+      <mn>2</mn>
+      <mo>+</mo>
+      <mn>2</mn>
+    </msqrt>
+  </math>
+</root>
+
+----------------
+\sqrt{2 + 2}
+================
+
+<root>
+  <math>
+    <msqrt>
+      <mrow>
+        <mn>2</mn>
+        <mo>+</mo>
+        <mn>2</mn>
+      </mrow>
+    </msqrt>
+  </math>
+</root>
+
+----------------
+\sqrt{2 + 2}
+================
+
+<root>
+  <math>
+    <msqrt>
+    </msqrt>
+  </math>
+</root>
+
+----------------
+\sqrt{}
+================
+
+<root>
+  <math>
+  <mfenced>
+    <mn>3</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left(3\right)
+================
+
+<root>
+  <math>
+  <mfenced open="{">
+    <mn>3</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left{3\right)
+================
+
+<root>
+  <math>
+  <mfenced open="(" close=")">
+    <mn>3</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left(3\right)
+================
+
+<root>
+  <math>
+  <mfenced open="{" close>
+    <mn>3</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left{3\right)
+================
+
+<root>
+  <math>
+  <mfenced>
+    <mn>3</mn>
+    <mn>2</mn>
+    <mn>1</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left(3,2,1\right)
+================
+
+<root>
+  <math>
+  <mfenced separators=''>
+    <mn>3</mn>
+    <mn>2</mn>
+    <mn>1</mn>
+    <mn>7</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left(3,2,1,7\right)
+================
+
+<root>
+  <math>
+  <mfenced separators=';;;'>
+    <mn>3</mn>
+    <mn>2</mn>
+    <mn>1</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left(3;2;1\right)
+================
+
+<root>
+  <math>
+  <mfenced separators=';.'>
+    <mn>3</mn>
+    <mn>2</mn>
+    <mn>1</mn>
+    <mn>7</mn>
+  </mfenced>
+  </math>
+</root>
+
+----------------
+\left(3;2.1.7\right)
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mfenced open = "[" close="]">
+        <mtable>
+          <mtr>
+            <mtd><mi>x</mi></mtd>
+            <mtd><mi>y</mi></mtd>
+          </mtr>
+          <mtr>
+            <mtd><mi>z</mi></mtd>
+            <mtd><mi>w</mi></mtd>
+          </mtr>
+        </mtable>
+      </mfenced>
+    </mrow>
+  </math>
+</root>
+
+----------------
+A = \begin{bmatrix} x & y \\ z & w \end{bmatrix}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mfenced open = "(" close=")">
+        <mtable>
+          <mtr>
+            <mtd><mi>x</mi></mtd>
+            <mtd><mi>y</mi></mtd>
+          </mtr>
+          <mtr>
+            <mtd><mi>z</mi></mtd>
+            <mtd><mi>w</mi></mtd>
+          </mtr>
+        </mtable>
+      </mfenced>
+    </mrow>
+  </math>
+</root>
+
+----------------
+A = \begin{pmatrix} x & y \\ z & w \end{pmatrix}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mfenced open = "|" close="|">
+        <mtable>
+          <mtr>
+            <mtd><mi>x</mi></mtd>
+            <mtd><mi>y</mi></mtd>
+          </mtr>
+          <mtr>
+            <mtd><mi>z</mi></mtd>
+            <mtd><mi>w</mi></mtd>
+          </mtr>
+        </mtable>
+      </mfenced>
+    </mrow>
+  </math>
+</root>
+
+----------------
+A = \begin{vmatrix} x & y \\ z & w \end{vmatrix}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mfenced open = "{" close="}">
+        <mtable>
+          <mtr>
+            <mtd><mi>x</mi></mtd>
+            <mtd><mi>y</mi></mtd>
+          </mtr>
+          <mtr>
+            <mtd><mi>z</mi></mtd>
+            <mtd><mi>w</mi></mtd>
+          </mtr>
+        </mtable>
+      </mfenced>
+    </mrow>
+  </math>
+</root>
+
+----------------
+A = \begin{Bmatrix} x & y \\ z & w \end{Bmatrix}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mfenced open = "||" close="||">
+        <mtable>
+          <mtr>
+            <mtd><mi>x</mi></mtd>
+            <mtd><mi>y</mi></mtd>
+          </mtr>
+          <mtr>
+            <mtd><mi>z</mi></mtd>
+            <mtd><mi>w</mi></mtd>
+          </mtr>
+        </mtable>
+      </mfenced>
+    </mrow>
+  </math>
+</root>
+
+----------------
+A = \begin{Vmatrix} x & y \\ z & w \end{Vmatrix}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mrow>
+      <mi>A</mi>
+      <mo>=</mo>
+      <mfenced>
+        <mtable>
+          <mtr>
+            <mtd><mi>x</mi></mtd>
+            <mtd><mi>y</mi></mtd>
+          </mtr>
+          <mtr>
+            <mtd><mi>z</mi></mtd>
+            <mtd><mi>w</mi></mtd>
+          </mtr>
+        </mtable>
+      </mfenced>
+    </mrow>
+  </math>
+</root>
+
+----------------
+A = \begin{bmatrix} x & y \\ z & w \end{bmatrix}
+================
+
+<root>
+  <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+    <mi>f</mi>
+    <mfenced separators="|">
+      <mrow>
+        <mi>x</mi>
+      </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <mfenced open="{" close="" separators="|">
+      <mrow>
+        <mtable>
+          <mtr>
+            <mtd>
+              <mrow>
+                <maligngroup></maligngroup>
+                <msup>
+                  <mrow>
+                    <mi>x</mi>
+                  </mrow>
+                  <mrow>
+                    <mn>2</mn>
+                  </mrow>
+                </msup>
+                <mo>,</mo>
+                <mi>x</mi>
+                <mo>&lt;</mo>
+                <mn>0</mn>
+              </mrow>
+            </mtd>
+          </mtr>
+          <mtr>
+            <mtd>
+              <mrow>
+                <maligngroup></maligngroup>
+                <msup>
+                  <mrow>
+                    <mi>e</mi>
+                  </mrow>
+                  <mrow>
+                    <mi>x</mi>
+                  </mrow>
+                </msup>
+                <mo>,</mo>
+                <mi>x</mi>
+                <mo>≥</mo>
+                <mn>0</mn>
+              </mrow>
+            </mtd>
+          </mtr>
+        </mtable>
+      </mrow>
+    </mfenced>
+  </math>
+</root>
+
+----------------
+f \left(x\right) = \left{\begin{matrix} x^{2} , x < 0 \\ e^{x} , x \geq 0 \end{matrix}\right
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+  <mfenced separators="|">
+    <mrow>
+      <mtable>
+        <mtr>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                    <mrow>
+                      <mn>11</mn>
+                    </mrow>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                    <mrow>
+                      <mn>12</mn>
+                    </mrow>
+                  </msub>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mo>…</mo>
+                </mtd>
+                <mtd>
+                  <mo>…</mo>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+          <mtd>
+            <msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+              <mrow>
+                <mn>1</mn>
+                <mi>n</mi>
+              </mrow>
+            </msub>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                    <mrow>
+                      <mn>21</mn>
+                    </mrow>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                    <mrow>
+                      <mn>22</mn>
+                    </mrow>
+                  </msub>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mo>⋱</mo>
+                </mtd>
+                <mtd>
+                  <mi></mi>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+          <mtd>
+            <msub>
+              <mrow>
+                <mi>a</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+                <mi>n</mi>
+              </mrow>
+            </msub>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mtable>
+                    <mtr>
+                      <mtd>
+                        <mo>⋮</mo>
+                        <mi></mi>
+                        <mi></mi>
+                        <mi></mi>
+                        <mi></mi>
+                      </mtd>
+                      <mtd>
+                        <mo>⋮</mo>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mtable>
+                    <mtr>
+                      <mtd>
+                        <msub>
+                          <mrow>
+                            <mi>a</mi>
+                          </mrow>
+                          <mrow>
+                            <mi>m</mi>
+                            <mn>1</mn>
+                          </mrow>
+                        </msub>
+                      </mtd>
+                      <mtd>
+                        <msub>
+                          <mrow>
+                            <mi>a</mi>
+                          </mrow>
+                          <mrow>
+                            <mi>m</mi>
+                            <mn>2</mn>
+                          </mrow>
+                        </msub>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mtable>
+                    <mtr>
+                      <mtd>
+                        <mi></mi>
+                      </mtd>
+                      <mtd>
+                        <mo>⋱</mo>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mtable>
+                    <mtr>
+                      <mtd>
+                        <mo>…</mo>
+                      </mtd>
+                      <mtd>
+                        <mo>…</mo>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+          <mtd>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mo>⋮</mo>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <msub>
+                    <mrow>
+                      <mi>a</mi>
+                    </mrow>
+                    <mrow>
+                      <mi>m</mi>
+                      <mi>n</mi>
+                    </mrow>
+                  </msub>
+                </mtd>
+              </mtr>
+            </mtable>
+          </mtd>
+        </mtr>
+      </mtable>
+    </mrow>
+  </mfenced>
+  <mi></mi>
+</math>
+
+----------------
+\begin{bmatrix} \begin{matrix}a_{11} & a_{12}\end{matrix} & \begin{matrix}\ldots & \ldots\end{matrix} & a_{1 n} \\ \begin{matrix}a_{21} & a_{22}\end{matrix} & \begin{matrix}\ddots & \end{matrix} & a_{2 n} \\ \begin{matrix}\begin{matrix}\vdots & \vdots\end{matrix} \\ \begin{matrix}a_{m 1} & a_{m 2}\end{matrix}\end{matrix} & \begin{matrix}\begin{matrix} & \ddots\end{matrix} \\ \begin{matrix}\ldots & \ldots\end{matrix}\end{matrix} & \begin{matrix}\vdots \\ a_{m n}\end{matrix} \end{bmatrix}
+================
+
+<root>
+  <math>
+    <mfrac>
+      <mi>x</mi>
+      <mn>3</mn>
+    </mfrac>
+  </math>
+</root>
+
+----------------
+\frac{x}{3}
+================
+
+<root>
+  <math>
+    <mfrac>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mrow>
+        <mi>b</mi>
+        <mo>-</mo>
+        <mi>3</mi>
+      </mrow>
+    </mfrac>
+  </math>
+</root>
+
+----------------
+\frac{a + 2}{b - 3}
+================
+
+<root>
+  <math>
+    <mfrac bevelled="true">
+      <mn>1</mn>
+      <mrow>
+        <msup>
+          <mi>x</mi>
+          <mn>3</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>3</mn>
+      </mrow>
+    </mfrac>
+  </math>
+</root>
+
+----------------
+1/\left(x^{3} + 3\right)
+================
+
+<root>
+  <math>
+    <mroot>
+      <mrow>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mn>3</mn>
+    </mroot> 
+  </math>
+</root>
+
+----------------
+\sqrt[3]{x + 2}
+================
+
+<root>
+  <math>
+    <mpadded>
+      <mn>2</mn>
+      <mo>+</mo>
+      <mn>2</mn>
+    </mpadded>
+  </math>
+</root>
+
+----------------
+2 + 2
+================
+
+<root>
+  <math>
+    <maction>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mrow>
+        <mi>b</mi>
+        <mo>-</mo>
+        <mi>3</mi>
+      </mrow>
+    </maction>
+  </math>
+</root>
+
+----------------
+a + 2 \Longrightarrow b - 3
+================
+
+<root>
+  <math>
+    <maction>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mrow>
+        <mi>b</mi>
+        <mo>-</mo>
+        <mi>3</mi>
+      </mrow>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+      </mrow>
+    </maction>
+  </math>
+</root>
+
+----------------
+a + 2 \Longrightarrow b - 3 \Longrightarrow a + b
+================
+
+<root>
+  <math>
+    <maction actiontype="toggle">
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mrow>
+        <mi>b</mi>
+        <mo>-</mo>
+        <mi>3</mi>
+      </mrow>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+      </mrow>
+    </maction>
+  </math>
+</root>
+
+----------------
+a + 2 \Longrightarrow b - 3 \Longrightarrow a + b
+================
+
+<root>
+  <math>
+    <maction actiontype="statusline">
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mrow>
+        <mi>b</mi>
+        <mo>-</mo>
+        <mi>3</mi>
+      </mrow>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+      </mrow>
+    </maction>
+  </math>
+</root>
+
+----------------
+a + 2
+================
+
+<root>
+  <math>
+    <maction actiontype="tooltip">
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>2</mi>
+      </mrow>
+      <mrow>
+        <mi>b</mi>
+        <mo>-</mo>
+        <mi>3</mi>
+      </mrow>
+      <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mi>b</mi>
+      </mrow>
+    </maction>
+  </math>
+</root>
+
+----------------
+a + 2
+================
+
+<root>
+  <math>
+    <menclose>
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\overline{\left.\right)a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="longdiv">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\overline{\left.\right)a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="actuarial">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\overline{\left.a + 2\right|}
+================
+
+<root>
+  <math>
+    <menclose notation="radical">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\sqrt{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="box">
+      <mrow>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\boxed{E = m c^{2}}
+================
+
+<root>
+  <math>
+    <menclose notation="roundedbox">
+      <mrow>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\boxed{E = m c^{2}}
+================
+
+<root>
+  <math>
+    <menclose notation="circle">
+      <mrow>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\boxed{E = m c^{2}}
+================
+
+<root>
+  <math>
+    <menclose notation="left">
+      <mrow>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\left|E = m c^{2}
+================
+
+<root>
+  <math>
+    <menclose notation="right">
+      <mrow>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </menclose>
+  </math>
+</root>
+
+----------------
+E = m c^{2}\right|
+================
+
+<root>
+  <math>
+    <menclose notation="top">
+      <mrow>
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\overline{E = m c^{2}}
+================
+
+<root>
+  <math>
+    <menclose notation="bottom">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\underline{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="updiagonalstrike">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\cancel{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="downdiagonalstrike">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\bcancel{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="horizontalstrike">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\hcancel{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="verticalstrike">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\hcancel{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="updiagonalarrow">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\cancelto{}{a + 2}
+================
+
+<root>
+  <math>
+    <menclose notation="madruwb">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+\underline{a + 2\right|}
+================
+
+<root>
+  <math>
+    <menclose notation="phasorangle">
+      <mi>a</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </menclose>
+  </math>
+</root>
+
+----------------
+{\angle \underline{a + 2}}
+================
+
+<root>
+  <math>
+    <merror>
+      <mi>2</mi>
+      <mo>+</mo>
+      <mi>2</mi>
+    </merror>
+  </math>
+</root>
+
+----------------
+\color{red}{2 + 2}
+================
+
+<root>
+  <math>
+    <mi><mglyph src="my-glyph.png" alt="my glyph"/></mi>
+  </math>
+</root>
+
+----------------
+
+================
+
+<root>
+  <math>
+    <mrow>
+      <mi> x </mi>
+      <mo> + </mo>
+      <mphantom>
+        <mi> y </mi>
+        <mo> + </mo>
+      </mphantom>
+      <mi> z </mi>
+    </mrow>
+  </math>
+</root>
+
+----------------
+x + z
+================
+
+<root>
+  <math>
+    <msup>
+      <mi>x</mi>
+      <mn>2</mn>
+    </msup>
+  </math>
+</root>
+
+----------------
+x^{2}
+================
+
+<root>
+  <math>
+    <msup>
+      <mi>x</mi>
+      <mrow>
+        <mn>a</mn>
+        <mo>+</mo>
+        <mn>b</mn>
+      </mrow>
+    </msup>
+  </math>
+</root>
+
+----------------
+x^{a + b}
+================
+
+<root>
+  <math>
+    <msup>
+      <mrow>
+        <mn>x</mn>
+        <mo>+</mo>
+        <mn>y</mn>
+      </mrow>
+      <mi>2</mi>
+    </msup>
+  </math>
+</root>
+
+----------------
+\left(x + y\right)^{2}
+================
+
+<root>
+  <math>
+    <msup>
+      <mrow>
+        <mn>x</mn>
+        <mo>+</mo>
+        <mn>y</mn>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+        <mo>+</mo>
+        <mn>2</mn>
+      </mrow>
+    </msup>
+  </math>
+</root>
+
+----------------
+\left(x + y\right)^{2 + 2}
+================
+
+<root>
+  <math>
+    <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+    </msub>
+  </math>
+</root>
+
+----------------
+x_{2}
+================
+
+<root>
+  <math>
+    <msub>
+      <mi>x</mi>
+      <mrow>
+        <mn>a</mn>
+        <mo>+</mo>
+        <mn>b</mn>
+      </mrow>
+    </msub>
+  </math>
+</root>
+
+----------------
+x_{a + b}
+================
+
+<root>
+  <math>
+    <msub>
+      <mrow>
+        <mn>x</mn>
+        <mo>+</mo>
+        <mn>y</mn>
+      </mrow>
+      <mi>2</mi>
+    </msub>
+  </math>
+</root>
+
+----------------
+\left(x + y\right)_{2}
+================
+
+<root>
+  <math>
+    <msub>
+      <mrow>
+        <mn>x</mn>
+        <mo>+</mo>
+        <mn>y</mn>
+      </mrow>
+      <mrow>
+        <mn>2</mn>
+        <mo>+</mo>
+        <mn>2</mn>
+      </mrow>
+    </msub>
+  </math>
+</root>
+
+----------------
+\left(x + y\right)_{2 + 2}
+================
+
+<root>
+  <math>
+    <msubsup>
+      <mo> &#x222B; </mo>
+      <mn> 0 </mn>
+      <mn> 1 </mn>
+    </msubsup>
+  </math>
+</root>
+
+----------------
+\int_{0}^{1}
+================
+
+<root>
+  <math>
+    <msubsup>
+      <mrow>
+        <mn>x</mn>
+        <mo>+</mo>
+        <mn>y</mn>
+      </mrow>
+      <mn> 0 </mn>
+      <mn> 1 </mn>
+    </msubsup>
+  </math>
+</root>
+
+----------------
+\left(x + y\right)_{0}^{1}
+================
+
+<root>
+  <math xmlns = "http://www.w3.org/1998/Math/MathML">
+    <mtext> Theorem of Pythagoras </mtext>
+  </math>
+</root>
+
+----------------
+\text{ Theorem of Pythagoras }
+================
+
+<root>
+  <math>
+    <mover accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mo>⏞</mo>
+    </mover>
+  </math>
+</root>
+
+----------------
+\overbrace{x + y + z}
+================
+
+<root>
+  <math>
+    <mover accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mo>^</mo>
+    </mover>
+  </math>
+</root>
+
+----------------
+\hat{x + y + z}
+================
+
+<root>
+  <math>
+    <mover accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mo>&#x2C6;</mo>
+    </mover>
+  </math>
+</root>
+
+----------------
+\hat{x + y + z}
+================
+
+<root>
+  <math>
+    <mover accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mrow>
+        <mi> a </mi>
+        <mo> + </mo>
+        <mi> b </mi>
+      </mrow>
+    </mover>
+  </math>
+</root>
+
+----------------
+\overset{a + b}{x + y + z}
+================
+
+<root>
+  <math>
+    <munder accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mo>⏟</mo>
+    </munder>
+  </math>
+</root>
+
+----------------
+\underbrace{x + y + z}
+================
+
+<root>
+  <math>
+    <munder accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mrow>
+        <mi> a </mi>
+        <mo> + </mo>
+        <mi> b </mi>
+      </mrow>
+    </munder>
+  </math>
+</root>
+
+----------------
+\underset{a + b}{x + y + z}
+================
+
+<root>
+  <math>
+    <munder accent="true">
+      <mrow>
+        <mi> x </mi>
+        <mo> + </mo>
+        <mi> y </mi>
+        <mo> + </mo>
+        <mi> z </mi>
+      </mrow>
+      <mo>&#x23DF;</mo>
+    </munder>
+  </math>
+</root>
+
+----------------
+\underbrace{x + y + z}
+================
+
+<root>
+  <math>
+    <munderover>
+      <mo> &#x222B;</mo>
+      <mn> 0 </mn>
+      <mn> 1 </mn>
+    </munderover>
+  </math>
+</root>
+
+----------------
+\int_{0}^{1}
+================
+
+<root>
+  <math>
+    <munderover>
+      <mo> &#x222B;</mo>
+      <mn> 0 </mn>
+      <mi> &#x221E; </mi>
+    </munderover>
+  </math>
+</root>
+
+----------------
+\int_{0}^{\infty}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mmultiscripts>
+  <mrow>
+    <mi>N</mi>
+    <mi>a</mi>
+  </mrow>
+  <mrow>
+    <mn>11</mn>
+  </mrow>
+  <mrow>
+    <mi>+</mi>
+  </mrow>
+</mmultiscripts>
+</math>
+----------------
+\left(N a\right)_{11}^{+}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mmultiscripts>
+  <mrow>
+    <mi>N</mi>
+    <mi>a</mi>
+  </mrow>
+  <mrow>
+    <mn>11</mn>
+  </mrow>
+  <none/>
+</mmultiscripts>
+</math>
+----------------
+\left(N a\right)_{11}^{}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mmultiscripts>
+  <mrow>
+    <mi>N</mi>
+    <mi>a</mi>
+  </mrow>
+  <none/>
+  <mrow>
+    <mn>+</mn>
+  </mrow>
+</mmultiscripts>
+</math>
+----------------
+\left(N a\right)_{}^{+}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mmultiscripts>
+
+  <mi>X</mi>      <!-- base expression -->  
+
+  <mi>d</mi>      <!-- postsubscript -->
+  <mi>c</mi>      <!-- postsuperscript -->
+
+  <mprescripts />
+  <mi>b</mi>      <!-- presubscript -->
+  <mi>a</mi>      <!-- presuperscript -->
+
+</mmultiscripts>
+</math>
+----------------
+\_{b}^{a}X_{d}^{c}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mmultiscripts>
+
+  <mi>X</mi>      <!-- base expression -->
+
+  <none />        <!-- postsubscript -->
+  <mi>c</mi>      <!-- postsuperscript -->
+
+  <mprescripts />
+  <mi>b</mi>      <!-- presubscript -->
+  <none />        <!-- presuperscript -->
+
+</mmultiscripts>
+</math>
+----------------
+\_{b}^{}X_{}^{c}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<mmultiscripts>
+  <mi>X</mi>      <!-- base expression -->
+  <mprescripts />
+  <mi>b</mi>      <!-- presubscript -->
+  <none />        <!-- presuperscript -->
+
+</mmultiscripts>
+</math>
+----------------
+\_{b}^{}X
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi></mi>
+  <mi>x</mi>
+  <mi></mi>
+  <mi></mi>
+</math>
+----------------
+x
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>d</mi>
+  <mo>=</mo>
+  <msup>
+    <mrow>
+      <mfenced separators="|">
+        <mrow>
+          <mfrac>
+            <mrow>
+              <msup>
+                <mrow>
+                  <mi>q</mi>
+                </mrow>
+                <mrow>
+                  <mn>2</mn>
+                </mrow>
+              </msup>
+              <mi>L</mi>
+            </mrow>
+            <mrow>
+              <mn>2</mn>
+              <mi>π</mi>
+              <msub>
+                <mrow>
+                  <mi>ϵ</mi>
+                </mrow>
+                <mrow>
+                  <mn>0</mn>
+                </mrow>
+              </msub>
+              <mi>m</mi>
+              <mi>g</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+      </mfenced>
+    </mrow>
+    <mrow>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mn>3</mn>
+    </mrow>
+  </msup>
+</math>
+
+----------------
+d = \left(\frac{q^{2} L}{2 \pi \epsilon_{0} m g}\right)^{1 / 3}
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mn>2</mn>
+  <mi>µ</mi>
+  <mi>s</mi>
+</math>
+
+----------------
+2 \mu s
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>kg⋅m²</mtext>
+</math>
+
+----------------
+\text{kg}\cdot\text{m}^{2}
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>E</mi>
+  <mfenced separators="|">
+    <mrow>
+      <msub>
+        <mrow>
+          <mi>W</mi>
+        </mrow>
+        <mrow>
+          <mi>ı</mi>
+        </mrow>
+      </msub>
+    </mrow>
+  </mfenced>
+  <mo>=</mo>
+  <mi>μ</mi>
+</math>
+
+----------------
+E \left(W_{\imath}\right) = \mu
+================
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mn>2</mn>
+  <mi>∎</mi>
+  <mi>s</mi>
+</math>
+
+----------------
+2 \blacksquare s
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ω</mi></math>
+----------------
+\Omega
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>×</mo></math>
+----------------
+\times
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>½</mn></math>
+----------------
+\dfrac{1}{2}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>µ</mi></math>
+----------------
+\mu
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>θ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>✓</mo></math>
+----------------
+\checkmark
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>〈</mo></math>
+----------------
+\langle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟨</mo></math>
+----------------
+\langle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟩</mo></math>
+----------------
+\rangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>¼</mn></math>
+----------------
+\dfrac{1}{4}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>…</mo></math>
+----------------
+\ldots
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℏ</mi></math>
+----------------
+\hbar
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℜ</mi></math>
+----------------
+\mathfrak{R}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ѳ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ø</mi></math>
+----------------
+\emptyset
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϱ</mi></math>
+----------------
+\varrho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϕ</mi></math>
+----------------
+\phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>T</mi></math>
+----------------
+T
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⋅</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi></math>
+----------------
+P
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∞</mo></math>
+----------------
+\infty
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∇</mo></math>
+----------------
+\nabla
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>η</mi></math>
+----------------
+\eta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Å</mi></math>
+----------------
+\mathring{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>θ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɣ</mi></math>
+----------------
+\gamma
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ћ</mi></math>
+----------------
+\hbar
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Å</mi></math>
+----------------
+\mathring{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌊</mo></math>
+----------------
+\lfloor
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>π</mi></math>
+----------------
+\pi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>³</mn></math>
+----------------
+^{3}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ɛ</mi></math>
+----------------
+\varepsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝒟</mi></math>
+----------------
+\mathcal{D}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℝ</mi></math>
+----------------
+\mathbb{R}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>²</mn></math>
+----------------
+^{2}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℒ</mi></math>
+----------------
+\mathcal{L}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁸</mn></math>
+----------------
+^{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁷</mn></math>
+----------------
+^{7}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ⅅ</mi></math>
+----------------
+\_{D}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌈</mo></math>
+----------------
+\lceil
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌉</mo></math>
+----------------
+\rceil
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ÿ</mi></math>
+----------------
+\ddot{y}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>●</mo></math>
+----------------
+\circle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>〗</mo></math>
+----------------
+\)|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▫</mo></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ω</mi></math>
+----------------
+\omega
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℱ</mi></math>
+----------------
+\mathcal{F}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓞</mi></math>
+----------------
+\mathcal{O}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑥</mi></math>
+----------------
+x
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑦</mi></math>
+----------------
+y
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑖</mi></math>
+----------------
+i
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑧</mi></math>
+----------------
+z
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑗</mi></math>
+----------------
+j
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑘</mi></math>
+----------------
+k
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐵</mi></math>
+----------------
+\mathit{B}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓓</mi></math>
+----------------
+\mathcal{D}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐷</mi></math>
+----------------
+\mathit{D}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑚</mi></math>
+----------------
+m
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐼</mi></math>
+----------------
+\mathit{I}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑇</mi></math>
+----------------
+\mathit{T}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐾</mi></math>
+----------------
+\mathit{K}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑒</mi></math>
+----------------
+e
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑟</mi></math>
+----------------
+r
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑉</mi></math>
+----------------
+\mathit{V}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐴</mi></math>
+----------------
+\mathit{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑃</mi></math>
+----------------
+\mathit{P}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝒞</mi></math>
+----------------
+\mathcal{C}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɳ</mi></math>
+----------------
+\eta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ν</mi></math>
+----------------
+\nu
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɳ</mi></math>
+----------------
+\eta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ⅈ</mi></math>
+----------------
+i
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⍵</mi></math>
+----------------
+\omega
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ο</mi></math>
+----------------
+o
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ƒ</mi></math>
+----------------
+f
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>🇽</mi></math>
+----------------
+x
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℰ</mi></math>
+----------------
+\mathcal{E}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑝</mi></math>
+----------------
+p
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑎</mi></math>
+----------------
+a
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑆</mi></math>
+----------------
+\mathit{S}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑠</mi></math>
+----------------
+s
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑜</mi></math>
+----------------
+o
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝛽</mi></math>
+----------------
+\beta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐶</mi></math>
+----------------
+\mathit{C}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑡</mi></math>
+----------------
+t
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑅</mi></math>
+----------------
+\mathit{R}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑢</mi></math>
+----------------
+u
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑏</mi></math>
+----------------
+b
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℚ</mi></math>
+----------------
+\mathbb{Q}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ŷ</mi></math>
+----------------
+\hat{y}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑀</mi></math>
+----------------
+\mathit{M}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑐</mi></math>
+----------------
+c
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑛</mi></math>
+----------------
+n
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑣</mi></math>
+----------------
+v
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑔</mi></math>
+----------------
+g
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>;</mi></math>
+----------------
+;
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>℘</mi></math>
+----------------
+\wp
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓕</mi></math>
+----------------
+\mathcal{F}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>൦</mi></math>
+----------------
+\circ
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝔻</mi></math>
+----------------
+\mathbb{D}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝕽</mi></math>
+----------------
+\mathcal{R}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>┴</mi></math>
+----------------
+\perp
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ô</mi></math>
+----------------
+\hat{O}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>✕</mi></math>
+----------------
+\times
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɵ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℕ</mi></math>
+----------------
+\mathbb{N}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>
+----------------
+\beta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₀</mn></math>
+----------------
+_{0}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₁</mn></math>
+----------------
+_{1}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₂</mn></math>
+----------------
+_{2}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₃</mn></math>
+----------------
+_{3}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₄</mn></math>
+----------------
+_{4}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₅</mn></math>
+----------------
+_{5}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₆</mn></math>
+----------------
+_{6}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₇</mn></math>
+----------------
+_{7}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₈</mn></math>
+----------------
+_{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₉</mn></math>
+----------------
+_{9}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟦</mo></math>
+----------------
+\(|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟧</mo></math>
+----------------
+\)|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ê</mi></math>
+----------------
+\hat{E}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>‾</mo></math>
+----------------
+\overline
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>→</mo></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∥</mo></math>
+----------------
+\parallel
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑄</mi></math>
+----------------
+\mathit{Q}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑓</mi></math>
+----------------
+f
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ī</mi></math>
+----------------
+\bar{I}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≈</mo></math>
+----------------
+\approx
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∣</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∢</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Փ</mi></math>
+----------------
+\Phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∮</mo></math>
+----------------
+\oint
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∫</mo></math>
+----------------
+\int
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∑</mo></math>
+----------------
+\sum
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∏</mo></math>
+----------------
+\prod
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∂</mo></math>
+----------------
+\partial
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∀</mo></math>
+----------------
+\forall
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∃</mo></math>
+----------------
+\exists
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∈</mo></math>
+----------------
+\in
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∋</mo></math>
+----------------
+\ni
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∝</mo></math>
+----------------
+\propto
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁹</mn></math>
+----------------
+^{9}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⎜</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⎻</mo></math>
+----------------
+-
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑙</mi></math>
+----------------
+l
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑖</mi></math>
+----------------
+i
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝔀</mi></math>
+----------------
+w
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>»</mo></math>
+----------------
+\gg
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ν</mi></math>
+----------------
+\nu
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ħ</mo></math>
+----------------
+\hbar
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><undefined>ፈ</undefined></math>
+----------------
+
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑑</mi></math>
+----------------
+d
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝜋</mi></math>
+----------------
+\pi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦨</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>п</mi></math>
+----------------
+\pi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⬆</mo></math>
+----------------
+\uparrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⬇</mo></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⬅</mo></math>
+----------------
+\leftarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⮕</mo></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Є</mi></math>
+----------------
+\epsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⇒</mo></math>
+----------------
+\Rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⇔</mo></math>
+----------------
+\Leftrightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⇐</mo></math>
+----------------
+\Leftarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⇑</mo></math>
+----------------
+\Uparrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⇓</mo></math>
+----------------
+\Downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ˆ</mo></math>
+----------------
+\hat
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>¸</mo></math>
+----------------
+,
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ế</mi></math>
+----------------
+\hat{e}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦪</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>¢</mi></math>
+----------------
+\cent
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⎼</mo></math>
+----------------
+-
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐹</mi></math>
+----------------
+\mathit{F}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↓</mo></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ι</mi></math>
+----------------
+\mathit{I}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>δ</mi></math>
+----------------
+\delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤹</mo></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤷</mo></math>
+----------------
+\Rsh
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤶</mo></math>
+----------------
+\Lsh
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤵</mo></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤴</mo></math>
+----------------
+\uparrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤳</mo></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤸</mo></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤺</mo></math>
+----------------
+\leftarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⤻</mo></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ă</mi></math>
+----------------
+\breve{a}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁵</mn></math>
+----------------
+^{5}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Δ</mi></math>
+----------------
+\Delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ő</mi></math>
+----------------
+\ddot{o}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Î</mi></math>
+----------------
+\hat{I}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝜓</mi></math>
+----------------
+\psi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝜑</mi></math>
+----------------
+\varphi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>√</mo></math>
+----------------
+\sqrt{}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>♥</mi></math>
+----------------
+\heartsuit
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϴ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁰</mn></math>
+----------------
+^{0}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɸ</mi></math>
+----------------
+\phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>є</mi></math>
+----------------
+\epsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ơ</mi></math>
+----------------
+o
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>О</mi></math>
+----------------
+0
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ม</mi></math>
+----------------
+\mathbf{m}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ė</mi></math>
+----------------
+\dot{E}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Υ</mi></math>
+----------------
+Y
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ā</mi></math>
+----------------
+\bar{a}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>・</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>х</mi></math>
+----------------
+x
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ε</mi></math>
+----------------
+\epsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝜀</mi></math>
+----------------
+\epsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑞</mi></math>
+----------------
+q
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>¦</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝞆</mi></math>
+----------------
+\mathbf{X}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⋋</mo></math>
+----------------
+\bowtie
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⋊</mo></math>
+----------------
+\ltimes
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⋉</mo></math>
+----------------
+\rtimes
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⋈</mo></math>
+----------------
+\Join
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>φ</mi></math>
+----------------
+\varphi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>£</mo></math>
+----------------
+\pounds
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦫</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦪</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦩</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↑</mo></math>
+----------------
+\uparrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▱</mo></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▰</mo></math>
+----------------
+\blacksquare
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▯</mo></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▮</mo></math>
+----------------
+\blacksquare
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▭</mo></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ε</mi></math>
+----------------
+\mathbf{E}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≠</mo></math>
+----------------
+\neq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≡</mo></math>
+----------------
+\equiv
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≤</mo></math>
+----------------
+\leq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≥</mo></math>
+----------------
+\geq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊂</mo></math>
+----------------
+\subset
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊃</mo></math>
+----------------
+\supset
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊆</mo></math>
+----------------
+\subseteq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊇</mo></math>
+----------------
+\supseteq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦣</mo></math>
+----------------
+\ulcorner
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦩</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⨮</mo></math>
+----------------
+\bigodot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟲</mo></math>
+----------------
+\circlearrowleft
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟳</mo></math>
+----------------
+\circlearrowright
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟵</mo></math>
+----------------
+\leftarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟶</mo></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>℟</mi></math>
+----------------
+\mathcal{R}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>α</mi></math>
+----------------
+\alpha
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>त</mi></math>
+----------------
+
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↗</mo></math>
+----------------
+\nearrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ṁ</mi></math>
+----------------
+m
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝚵</mi></math>
+----------------
+\Xi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐽</mi></math>
+----------------
+\mathit{J}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>◻</mo></math>
+----------------
+\Box
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑋</mi></math>
+----------------
+\mathit{X}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑌</mi></math>
+----------------
+\mathit{Y}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ф</mi></math>
+----------------
+\Phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⍬</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>τ</mi></math>
+----------------
+\tau
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Β</mi></math>
+----------------
+\mathsf{B}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⧸</mo></math>
+----------------
+/
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⧹</mo></math>
+----------------
+\backslash
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊤</mo></math>
+----------------
+\top
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ō</mi></math>
+----------------
+\bar{O}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>¥</mo></math>
+----------------
+\yen
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⁽</mo></math>
+----------------
+^{(}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⁾</mo></math>
+----------------
+^{)}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦇</mo></math>
+----------------
+\(|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦈</mo></math>
+----------------
+|\)
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∅</mo></math>
+----------------
+\emptyset
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>①</mi></math>
+----------------
+\textcircled{1}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>②</mi></math>
+----------------
+\textcircled{2}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>③</mi></math>
+----------------
+\textcircled{3}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>④</mi></math>
+----------------
+\textcircled{4}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑤</mi></math>
+----------------
+\textcircled{5}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑥</mi></math>
+----------------
+\textcircled{6}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑦</mi></math>
+----------------
+\textcircled{7}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑧</mi></math>
+----------------
+\textcircled{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑨</mi></math>
+----------------
+\textcircled{9}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑩</mi></math>
+----------------
+\textcircled{10}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑪</mi></math>
+----------------
+\textcircled{11}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑫</mi></math>
+----------------
+\textcircled{12}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑬</mi></math>
+----------------
+\textcircled{13}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑭</mi></math>
+----------------
+\textcircled{14}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑮</mi></math>
+----------------
+\textcircled{15}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑯</mi></math>
+----------------
+\textcircled{16}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑰</mi></math>
+----------------
+\textcircled{17}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑱</mi></math>
+----------------
+\textcircled{18}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑲</mi></math>
+----------------
+\textcircled{19}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⑳</mi></math>
+----------------
+\textcircled{20}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⓪</mi></math>
+----------------
+\textcircled{0}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑁</mi></math>
+----------------
+\mathit{N}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ú</mi></math>
+----------------
+\grave{U}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝚟</mi></math>
+----------------
+v
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝛟</mi></math>
+----------------
+\varphi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ß</mi></math>
+----------------
+\ss
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>十</mo></math>
+----------------
++
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>土</mo></math>
+----------------
+\pm
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ʋ</mi></math>
+----------------
+\upsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɭ</mi></math>
+----------------
+\ell
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>λ</mi></math>
+----------------
+\lambda
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ӷ</mi></math>
+----------------
+\Gamma
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⎥</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ρ</mi></math>
+----------------
+\rho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℙ</mi></math>
+----------------
+\mathbb{P}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>։</mo></math>
+----------------
+:
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ћ</mi></math>
+----------------
+\hbar
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϕ</mi></math>
+----------------
+\phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>а</mi></math>
+----------------
+a
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>р</mi></math>
+----------------
+p
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓍</mi></math>
+----------------
+x
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓎</mi></math>
+----------------
+y
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓏</mi></math>
+----------------
+z
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓐</mi></math>
+----------------
+\mathcal{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦵</mo></math>
+----------------
+\ominus
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦬</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦮</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ö</mi></math>
+----------------
+\ddot{o}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊿</mo></math>
+----------------
+\triangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>†</mo></math>
+----------------
+\dagger
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝐻</mi></math>
+----------------
+\mathit{H}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑤</mi></math>
+----------------
+w
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑂</mi></math>
+----------------
+\mathit{O}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝑈</mi></math>
+----------------
+\mathit{U}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>เ</mo></math>
+----------------
+\prime
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ü</mi></math>
+----------------
+\ddot{u}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝜆</mi></math>
+----------------
+\lambda
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>«</mo></math>
+----------------
+\ll
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>»</mo></math>
+----------------
+\gg
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>γ</mi></math>
+----------------
+\gamma
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Α</mi></math>
+----------------
+\mathsf{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ⁿ</mo></math>
+----------------
+^{n}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∘</mo></math>
+----------------
+\circ
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⍴</mi></math>
+----------------
+\rho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦁</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>✔</mo></math>
+----------------
+\checkmark
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>✗</mo></math>
+----------------
+\times
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&</mo></math>
+----------------
+\&
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&</mi></math>
+----------------
+\&
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>‖</mo></math>
+----------------
+\parallel
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>‖</mi></math>
+----------------
+\parallel
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>│</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>│</mi></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>%</mo></math>
+----------------
+\%
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>%</mi></math>
+----------------
+\%
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>“</mo></math>
+----------------
+\text{``}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>“</mi></math>
+----------------
+\text{``}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>”</mo></math>
+----------------
+\"
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>”</mi></math>
+----------------
+\"
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ñ</mi></math>
+----------------
+\tilde{n}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>〈</mo></math>
+----------------
+\langle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>〈</mi></math>
+----------------
+\langle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>〉</mo></math>
+----------------
+\rangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>〉</mi></math>
+----------------
+\rangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>$</mo></math>
+----------------
+\$
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>$</mi></math>
+----------------
+\$
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>#</mo></math>
+----------------
+\#
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>#</mi></math>
+----------------
+\#
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>℃</mo></math>
+----------------
+\text{\textdegree C}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>℉</mo></math>
+----------------
+\text{\textdegree F}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>℃</mi></math>
+----------------
+\text{\textdegree C}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>℉</mi></math>
+----------------
+\text{\textdegree F}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟨</mo></math>
+----------------
+\langle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟩</mo></math>
+----------------
+\rangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ṽ</mi></math>
+----------------
+\tilde{v}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌊</mo></math>
+----------------
+\lfloor
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>π</mi></math>
+----------------
+\pi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>³</mn></math>
+----------------
+^{3}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⁰</mo></math>
+----------------
+^{0}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁴</mn></math>
+----------------
+^{4}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁶</mn></math>
+----------------
+^{6}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>〗</mo></math>
+----------------
+\)|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌋</mo></math>
+----------------
+\rfloor
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>█</mo></math>
+----------------
+\blacksquare
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ĵ</mi></math>
+----------------
+\hat{j}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>¾</mo></math>
+----------------
+\dfrac{3}{4}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝓛</mi></math>
+----------------
+\mathcal{L}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟦</mo></math>
+----------------
+\(|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⟧</mo></math>
+----------------
+\)|
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>●</mo></math>
+----------------
+\circle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>●</mi></math>
+----------------
+\circle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▫</mo></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>▫</mi></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>℧</mo></math>
+----------------
+\mho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>℧</mi></math>
+----------------
+\mho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ȷ</mi></math>
+----------------
+\mathsf{J}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌈</mo></math>
+----------------
+\lceil
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⌉</mi></math>
+----------------
+\rceil
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⌉</mo></math>
+----------------
+\rceil
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ℇ</mi></math>
+----------------
+\varepsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁸</mn></math>
+----------------
+^{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁷</mn></math>
+----------------
+^{7}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁴</mn></math>
+----------------
+^{4}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝟙</mi></math>
+----------------
+\mathbb{1}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>θ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ẑ</mi></math>
+----------------
+\hat{z}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ⅇ</mi></math>
+----------------
+\text{e}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∞</mo></math>
+----------------
+\infty
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Κ</mi></math>
+----------------
+\mathsf{K}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ɼ</mi></math>
+----------------
+r
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₁</mn></math>
+----------------
+_{1}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₂</mn></math>
+----------------
+_{2}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₃</mn></math>
+----------------
+_{3}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ω</mi></math>
+----------------
+\omega
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↛</mo></math>
+----------------
+\nrightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↛</mi></math>
+----------------
+\nrightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∣</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>∣</mi></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ˆ</mo></math>
+----------------
+\hat
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ˆ</mi></math>
+----------------
+\hat{}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>‾</mo></math>
+----------------
+\overline
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>→</mo></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>→</mi></math>
+----------------
+\rightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₀</mn></math>
+----------------
+_{0}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>‡</mo></math>
+----------------
+\ddagger
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>‡</mi></math>
+----------------
+\ddagger
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>・</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>・</mi></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>⁵</mn></math>
+----------------
+^{5}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>▱</mo></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>▱</mi></math>
+----------------
+\square
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∆</mo></math>
+----------------
+\Delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>∆</mi></math>
+----------------
+\Delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ἱ</mi></math>
+----------------
+i
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∡</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ϒ</mi></math>
+----------------
+\Upsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↓</mo></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↓</mi></math>
+----------------
+\downarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↑</mo></math>
+----------------
+\uparrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↑</mi></math>
+----------------
+\uparrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>»</mo></math>
+----------------
+\gg
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⊤</mo></math>
+----------------
+\top
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⊤</mi></math>
+----------------
+\top
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⧸</mo></math>
+----------------
+/
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⧸</mi></math>
+----------------
+/
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝛿</mi></math>
+----------------
+\delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>˳</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>˳</mi></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>ₙ</mn></math>
+----------------
+_{n}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ₙ</mi></math>
+----------------
+_{n}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ₙ</mo></math>
+----------------
+_{n}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math>
+----------------
+\beta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>β</mo></math>
+----------------
+\beta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>։</mo></math>
+----------------
+:
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>։</mi></math>
+----------------
+:
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦪</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦪</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦩</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦩</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦫</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦫</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦁</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦁</mi></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ѳ</mi></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ѳ</mo></math>
+----------------
+\theta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦢</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦢</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>¸</mo></math>
+----------------
+,
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>¸</mi></math>
+----------------
+,
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝜙</mi></math>
+----------------
+\phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>𝜙</mo></math>
+----------------
+\phi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>П</mi></math>
+----------------
+\prod
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>П</mo></math>
+----------------
+\prod
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>α</mi></math>
+----------------
+\alpha
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>α</mo></math>
+----------------
+\alpha
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₆</mn></math>
+----------------
+_{6}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>₆</mi></math>
+----------------
+_{6}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>₆</mo></math>
+----------------
+_{6}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>о</mi></math>
+----------------
+o
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>о</mo></math>
+----------------
+o
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≈</mo></math>
+----------------
+\approx
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>≈</mi></math>
+----------------
+\approx
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≤</mo></math>
+----------------
+\leq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>≤</mi></math>
+----------------
+\leq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ђ</mi></math>
+----------------
+\hbar
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ђ</mo></math>
+----------------
+\hbar
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ʌ</mi></math>
+----------------
+\Lambda
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>Ʌ</mo></math>
+----------------
+\Lambda
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>土</mo></math>
+----------------
+\pm
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>土</mi></math>
+----------------
+\pm
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⎼</mo></math>
+----------------
+-
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⎼</mi></math>
+----------------
+-
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>十</mo></math>
+----------------
++
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>十</mi></math>
+----------------
++
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>γ</mi></math>
+----------------
+\gamma
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>γ</mo></math>
+----------------
+\gamma
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>≠</mo></math>
+----------------
+\neq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>≠</mi></math>
+----------------
+\neq
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>←</mo></math>
+----------------
+\leftarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>←</mi></math>
+----------------
+\leftarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>।</mo></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>।</mi></math>
+----------------
+\mid
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>€</mo></math>
+----------------
+\euro
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>€</mi></math>
+----------------
+\euro
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>˘</mo></math>
+----------------
+
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>˘</mi></math>
+----------------
+
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ρ</mi></math>
+----------------
+\rho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ρ</mo></math>
+----------------
+\rho
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ῡ</mi></math>
+----------------
+\bar{u}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ῡ</mo></math>
+----------------
+\bar{u}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∥</mo></math>
+----------------
+\parallel
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>∥</mi></math>
+----------------
+\parallel
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>↔</mo></math>
+----------------
+\leftrightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>↔</mi></math>
+----------------
+\leftrightarrow
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>√</mo></math>
+----------------
+\sqrt{}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>√</mi></math>
+----------------
+\sqrt{}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>φ</mi></math>
+----------------
+\varphi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>φ</mo></math>
+----------------
+\varphi
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>ȼ</mi></math>
+----------------
+c
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>ȼ</mo></math>
+----------------
+c
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>𝞮</mi></math>
+----------------
+\epsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>𝞮</mo></math>
+----------------
+\epsilon
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Δ</mi></math>
+----------------
+\Delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>Δ</mo></math>
+----------------
+\Delta
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>·</mo></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>·</mi></math>
+----------------
+\cdot
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>∅</mo></math>
+----------------
+\emptyset
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>∅</mi></math>
+----------------
+\emptyset
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦬</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦬</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦮</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦮</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>⦭</mo></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>⦭</mi></math>
+----------------
+\measuredangle
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>«</mo></math>
+----------------
+\ll
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>«</mi></math>
+----------------
+\ll
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>₈</mn></math>
+----------------
+_{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>₈</mi></math>
+----------------
+_{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>₈</mo></math>
+----------------
+_{8}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Ȧ</mi></math>
+----------------
+\dot{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>Ȧ</mo></math>
+----------------
+\dot{A}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>λ</mi></math>
+----------------
+\lambda
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>λ</mo></math>
+----------------
+\lambda
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Χ</mi></math>
+----------------
+\mathsf{X}
+================
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>Χ</mo></math>
+----------------
+\mathsf{X}
+================
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:msubsup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mi>t</mml:mi></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Δ</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mrow><mml:munderover><mml:mo stretchy="false">∑</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>N</mml:mi></mml:mrow></mml:munderover><mml:mrow><mml:msubsup><mml:mrow><mml:mi>G</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow><mml:mrow><mml:mi>D</mml:mi></mml:mrow></mml:msubsup><mml:mfenced separators="|"><mml:mrow><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>-</mml:mo><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>A</mml:mi><mml:mo>,</mml:mo><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+----------------
+V_{i} \frac{\Delta C_{A , i}^{t}}{\Delta t} = \sum_{j = k}^{N} G_{i , j}^{D} \left(C_{A , j} - C_{A , i}\right)
+================
+
+    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <semantics>
+        <mrow>
+          <msub>
+            <mtext>Required Value</mtext>
+            <mtext>other</mtext>
+          </msub>
+          <mo>≥</mo>
+          <mfrac>
+            <mrow>
+              <mn>21</mn>
+              <mi>f</mi>
+              <msup>
+                <mi>t</mi>
+                <mn>3</mn>
+              </msup>
+            </mrow>
+            <mrow>
+              <mi>A</mi>
+              <mi>C</mi>
+              <mi>H</mi>
+            </mrow>
+          </mfrac>
+          <mo>⋅</mo>
+          <mo fence="true">(</mo>
+          <mfrac>
+            <msub>
+              <mi>I</mi>
+              <mi>o</mi>
+            </msub>
+            <mrow>
+              <mn>1000</mn>
+              <msub>
+                <mi>B</mi>
+                <mrow>
+                  <mtext>Btu</mtext>
+                  <mi mathvariant="normal">/</mi>
+                  <mtext>h</mtext>
+                </mrow>
+              </msub>
+            </mrow>
+          </mfrac>
+          <mo fence="true">)</mo>
+        </mrow>
+      </semantics>
+    </math>
+    
+----------------
+\text{Required Value}_{\text{other}} \geq \frac{21 f t^{3}}{A C H} \cdot \left(\right. \frac{I_{o}}{1000 B_{\text{Btu} / \text{h}}} \left.\right)
+================
+
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mmultiscripts>
+          <mi mathvariant="normal">U</mi>
+          <mprescripts></mprescripts>
+          <mn>238</mn>
+        </mmultiscripts>
+      </math>
+    
+----------------
+\_{238}^{}U
+================
