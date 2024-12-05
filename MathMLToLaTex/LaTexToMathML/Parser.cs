@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MaTeX.LaTexToMathML;
+﻿namespace MaTeX.LaTexToMathML;
 
 public class Parser
 {
+    public Lexer Lexer;
+    public Parser(Lexer lexer)
+    {
+        Lexer = lexer;
+    }
+
 }
