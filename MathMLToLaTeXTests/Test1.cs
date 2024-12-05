@@ -1,6 +1,5 @@
 ﻿using System.Text;
 using System.Xml.Linq;
-using System.Xml.XPath;
 
 namespace MathMLToLaTeXTests;
 
@@ -66,7 +65,7 @@ public sealed class Test1
         var bad = 0;
         foreach (var test in tests)
         {
-            var result = MathMLToLaTex.MathMLToLaTeXConverter.Convert(test.mathml);
+            var result = MaTex.MathMLToLaTex.MathMLToLaTeXConverter.Convert(test.mathml);
             try
             {
                 Assert.AreEqual(result, test.latex);
