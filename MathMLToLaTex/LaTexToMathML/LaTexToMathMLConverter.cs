@@ -41,12 +41,19 @@ public static class LaTexToMathMLConverter
             DisplayStyle.Inline => new MathMLElement("mstyle", ("displaystyle", "false")),
             _ => new MathMLElement("mstyle")
         },
+        //for Error
         _ => new MathMLElement("mtext", $"[PARSE ERROR:{node}]")
     };
     public static string Convert(string latex)
     {
-        MathMLElement mathML = Convert(default(Node));
-
-        return MathMLToElementsAdapter.Convert(mathML).ToString();
+        using var reader = new StringReader(latex);
+        var lexer = new Lexer(reader);
+        var paser = new Parser(lexer);
+        var (ns, e) = paser.Parse();
+        return e is null
+            ? string.Join("",
+                ns.Select(n => Convert(n)).Select(m => MathMLToElementsAdapter.Convert(m!)))
+            : MathMLToElementsAdapter.Convert(
+            Convert(new Node.Errror($"{e}"))!).ToString();
     }
 }

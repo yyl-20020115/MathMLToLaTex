@@ -18,6 +18,6 @@ public class Parser
         lexer.NextToken();
     }
 
-
+    public (Node[] ns, LatexError? e) Parse() => (null,null);
 
 }
