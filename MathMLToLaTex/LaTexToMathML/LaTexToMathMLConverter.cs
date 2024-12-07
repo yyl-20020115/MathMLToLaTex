@@ -26,7 +26,7 @@ public static class LaTexToMathMLConverter
         Node.Under under => new MathMLElement("munder", [Convert(under.target), Convert(under.under)]),
         Node.UnderOver underover => new MathMLElement("munderover", [Convert(underover.target), Convert(underover.under), Convert(underover.over)]),
         Node.Sqrt sqrt => sqrt.deg != null ? new MathMLElement("mroot", [Convert(sqrt.content), Convert(sqrt.deg)]) : new MathMLElement("msqrt", [Convert(sqrt.content)]),
-        Node.Frac frac => new MathMLElement("mfrac", [Convert(frac.n0), Convert(frac.n1)], ("thickness", $"{frac.lt}")),
+        Node.Frac frac => new MathMLElement("mfrac", [Convert(frac.numerator), Convert(frac.denominator)], ("thickness", $"{frac.lt}")),
         Node.Row row => new MathMLElement("mrow", [.. row.ns.Select(n => Convert(n))]),
         Node.Fenced fenced => new MathMLElement("mrow", [new MathMLElement("mo", $"{fenced.open}", ("stretchy", "true"), ("form", "prefix")), Convert(fenced.content), new MathMLElement("mo", $"{fenced.close}", ("stretchy", "true"), ("form", "postfix"))]),
         Node.StrechedOp op => new MathMLElement("mo", $"{op.s}", ("stretchy", $"{op.b}")),

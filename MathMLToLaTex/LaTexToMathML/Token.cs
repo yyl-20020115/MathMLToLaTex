@@ -83,6 +83,8 @@ public static class AttributeUtils
 }
 public abstract record class Token
 {
+    public override string ToString() => this.GetType().Name;
+
     public record class Illegal(char c) : Token { public readonly char c = c; }
     public record class EOF : Token { }
     public record class Begin : Token { }
@@ -117,7 +119,7 @@ public abstract record class Token
     public record class Number(String s) : Token { public readonly string s = s; }
     public record class Function(string s) : Token { public readonly string s = s; }
     public record class OperatorName : Token { }
-    public record class Slashed : Token { }
+    public record class Slashed() : Token { }
     public record class Text : Token { }
     public record class Command(string s) : Token { public readonly string s = s; }
 
