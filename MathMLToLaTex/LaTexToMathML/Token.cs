@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
 
 namespace MaTeX.LaTexToMathML;
 
@@ -38,7 +38,13 @@ public enum ColumnAlign
     Left,
     Right,
 }
+public static class CharUtils
+{
+    public static bool IsAsciiLetter(this char c) => c >= 0 && c <= 0xff && char.IsLetter(c);
+    public static bool IsAsciiDigit(this char c) => c >= 0 && c <= 0xff && char.IsDigit(c);
 
+    public static bool IsSpace(this char c) => c == ' ' || c == '\t' || c == '\n' || c == '\r';
+}
 public static class AttributeUtils
 {
     public static string ToString(this ColumnAlign align) => align switch
@@ -75,47 +81,47 @@ public static class AttributeUtils
         _ => ""
     };
 }
-public abstract class Token
+public abstract record class Token
 {
-    public class Illegal(char c) : Token { public readonly char c = c; }
-    public class EOF : Token { }
-    public class Begin : Token { }
-    public class End : Token { }
-    public class Ampersand : Token { }
-    public class NewLine : Token { }
-    public class Left : Token { }
-    public class Right : Token { }
-    public class Middle : Token { }
-    public class Paren(string s) : Token { public readonly string s = s; }
-    public class LBrace : Token { }
-    public class RBrace : Token { }
-    public class Frac : Token { }
-    public class Underscore : Token { }
-    public class Circumflex : Token { }
-    public class Binom(DisplayStyle? s = null) : Token { public readonly DisplayStyle? s = s; }
-    public class Overset : Token { }
-    public class Underset : Token { }
-    public class Overbrace(char c) : Token { public readonly char c = c; }
-    public class Underbrace(char c) : Token { public readonly char c = c; }
-    public class Sqrt : Token { }
-    public class Integral(char c) : Token { public readonly char c = c; }
-    public class Lim(string s) : Token { public readonly string s = s; }
-    public class Space(float f) : Token { public readonly float f = f; }
-    public class Style(Variant v) : Token { public readonly Variant v = v; }
-    public class Big(string s) : Token { public readonly string s = s; }
-    public class Over(char c, bool Accent) : Token { public readonly char c = c; public readonly bool Accent = Accent; }
-    public class Under(char c, bool Accent) : Token { public readonly char c = c; public readonly bool Accent = Accent; }
-    public class Operator(char c) : Token { public readonly char c = c; }
-    public class BigOp(char c) : Token { public readonly char c = c; }
-    public class Letter(char c, Variant v) : Token { public readonly char c = c; public readonly Variant v = v; }
-    public class Number(String s) : Token { public readonly string s = s; }
-    public class Function(string s) : Token { public readonly string s = s; }
-    public class OperatorName : Token { }
-    public class Slashed : Token { }
-    public class Text : Token { }
-    public class Command(string s) : Token { public readonly string s = s; }
+    public record class Illegal(char c) : Token { public readonly char c = c; }
+    public record class EOF : Token { }
+    public record class Begin : Token { }
+    public record class End : Token { }
+    public record class Ampersand : Token { }
+    public record class NewLine : Token { }
+    public record class Left : Token { }
+    public record class Right : Token { }
+    public record class Middle : Token { }
+    public record class Paren(string s) : Token { public readonly string s = s; }
+    public record class LBrace : Token { }
+    public record class RBrace : Token { }
+    public record class Frac : Token { }
+    public record class Underscore : Token { }
+    public record class Circumflex : Token { }
+    public record class Binom(DisplayStyle? s = null) : Token { public readonly DisplayStyle? s = s; }
+    public record class Overset : Token { }
+    public record class Underset : Token { }
+    public record class Overbrace(char c) : Token { public readonly char c = c; }
+    public record class Underbrace(char c) : Token { public readonly char c = c; }
+    public record class Sqrt : Token { }
+    public record class Integral(char c) : Token { public readonly char c = c; }
+    public record class Lim(string s) : Token { public readonly string s = s; }
+    public record class Space(float f) : Token { public readonly float f = f; }
+    public record class Style(Variant v) : Token { public readonly Variant v = v; }
+    public record class Big(string s) : Token { public readonly string s = s; }
+    public record class Over(char c, bool Accent) : Token { public readonly char c = c; public readonly bool Accent = Accent; }
+    public record class Under(char c, bool Accent) : Token { public readonly char c = c; public readonly bool Accent = Accent; }
+    public record class Operator(char c) : Token { public readonly char c = c; }
+    public record class BigOp(char c) : Token { public readonly char c = c; }
+    public record class Letter(char c, Variant v) : Token { public readonly char c = c; public readonly Variant v = v; }
+    public record class Number(String s) : Token { public readonly string s = s; }
+    public record class Function(string s) : Token { public readonly string s = s; }
+    public record class OperatorName : Token { }
+    public record class Slashed : Token { }
+    public record class Text : Token { }
+    public record class Command(string s) : Token { public readonly string s = s; }
 
-
+    public static bool ActOnDigit(Token t) => t is Sqrt or Frac or Binom or Style;
     public static Token FromCommand(string s) =>
         s switch
         {

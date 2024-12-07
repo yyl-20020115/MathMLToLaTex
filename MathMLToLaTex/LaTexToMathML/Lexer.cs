@@ -16,35 +16,34 @@ public class Lexer
     {
         this.Reader.Close();
     }
-
-    public char Current { get; private set; } = '\0';
-    public char Peek { get; private set; } = '\0';
+    private char current = '\0';
+    private char peek = '\0';
+    public char Current => this.current;
+    public char Peek => this.peek;
 
     protected char ReadChar()
     {
-        var c = Current;
-        this.Current = this.Peek;
+        var c = this.current;
+        this.current = this.peek;
         var n = this.Reader.Read();
-        this.Peek = n >= 0 ? (char)n : '\0';
+        this.peek = n >= 0 ? (char)n : '\0';
         return c;
     }
     protected char SkipWhiteSpace()
     {
-        while (this.Current == ' ' || this.Current == '\t' || this.Current == '\n' || this.Current == '\r')
-        {
+        while (this.current.IsSpace())
             this.ReadChar();
-        }
-        return this.Current;
+        return this.current;
     }
 
     protected Token ReadNumber()
     {
         var number = new StringBuilder();
         var has_period = false;
-        while (this.Current >= 0 && this.Current <= 0xff && char.IsDigit(this.Current)
-            || (this.Current == '.' && !has_period))
+        while (this.current.IsAsciiDigit()
+            || (this.current == '.' && !has_period))
         {
-            if (this.Current == '.') { has_period = true; }
+            if (this.current == '.') { has_period = true; }
             number.Append(this.ReadChar());
         }
         return new Token.Number(number.ToString());
@@ -56,15 +55,19 @@ public class Lexer
         if (first == '\0') return null;
         var command = new StringBuilder();
         command.Append(first);
-        while (first >= 0 && first <= 0xff && char.IsLetter(first)
-            && this.Current >= 0 && first <= this.Current && char.IsLetter(this.Current))
+        while (first.IsAsciiLetter() 
+            && this.current.IsAsciiLetter())
             command.Append(this.ReadChar());
 
         return Token.FromCommand(command.ToString());
     }
-    public Token? NextToken()
+    protected Token AfterReadChar(Token token)
     {
-        var token = this.SkipWhiteSpace() switch
+        this.ReadChar();
+        return token;
+    }
+    public Token? NextToken()
+        => this.SkipWhiteSpace() switch
         {
             '=' => new Token.Operator('='),
             ';' => new Token.Operator(';'),
@@ -89,22 +92,14 @@ public class Lexer
             '^' => new Token.Circumflex(),
             '&' => new Token.Ampersand(),
             '\0' => new Token.EOF(),
-            ':' => this.Peek == '=' ? new Token.Paren(this.ReadChar() + "=") : new Token.Operator(':'),
+            ':' => this.peek == '=' ? new Token.Paren(this.ReadChar() + "=") : new Token.Operator(':'),
             '\\' => this.ReadCommand(),
             _ => null
-        };
-        if (token != null)
-        {
-            this.ReadChar();
-            return token;
-        }
-        else
-        {
-            return this.Current >= 0 && this.Current <= 0xff && char.IsDigit(this.Current)
+        } is Token token
+            ? AfterReadChar(token)
+            : this.current.IsAsciiDigit()
                 ? this.ReadNumber()
-                : this.Current >= 0 && this.Current <= 0xff && char.IsLetter(this.Current)
-                    ? new Token.Letter(this.Current, Variant.Italic)
-                    : new Token.Letter(this.Current, Variant.Normal);
-        };
-    }
+                : this.current.IsAsciiLetter()
+                    ? new Token.Letter(this.current, Variant.Italic)
+                    : new Token.Letter(this.current, Variant.Normal);
 }
