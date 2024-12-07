@@ -8,8 +8,8 @@ public abstract class Node
     public class Operator(char c) : Node { public readonly char c = c; }
     public class Function(string s, Node n) : Node { public readonly string s = s; public readonly Node n = n; }
     public class Space(float f) : Node { public readonly float f = f; }
-    public class Subscript(Node n0, Node n1) : Node { public readonly Node n0 = n0; public readonly Node n1 = n1; }
-    public class Superscript(Node n0, Node n1) : Node { public readonly Node n0 = n0; public readonly Node n1 = n1; }
+    public class Subscript(Node? left, Node? right) : Node { public readonly Node? left = left; public readonly Node? right = right; }
+    public class Superscript(Node? left, Node? right) : Node { public readonly Node? left = left; public readonly Node? right = right; }
     public class SubSup(Node target, Node sub, Node sup) : Node { public readonly Node target = target; public readonly Node sub = sub; public readonly Node sup = sup; }
     public class OverOp(char c, bool b, Node n) : Node { public readonly char c = c; public readonly bool b = b; public readonly Node n = n; }
     public class UnderOp(char c, bool b, Node n) : Node { public readonly char c = c; public readonly bool b = b; public readonly Node n = n; }

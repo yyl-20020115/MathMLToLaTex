@@ -16,8 +16,8 @@ public static class LaTexToMathMLConverter
             ? new MathMLElement("mrow", [new MathMLElement("mi", function.s), new MathMLElement("mo", "\u2061"), Convert(function.n)])
             : new MathMLElement("mi"),
         Node.Space space => new MathMLElement("mspace", ("width", $"{space.f}em")),
-        Node.Subscript sub => new MathMLElement("msub", [Convert(sub.n0), Convert(sub.n1)]),
-        Node.Superscript sup => new MathMLElement("msup", [Convert(sup.n0), Convert(sup.n1)]),
+        Node.Subscript sub => new MathMLElement("msub", [Convert(sub.left), Convert(sub.right)]),
+        Node.Superscript sup => new MathMLElement("msup", [Convert(sup.left), Convert(sup.right)]),
         Node.SubSup subsup => new MathMLElement("msubsup", [Convert(subsup.target), Convert(subsup.sub), Convert(subsup.sup)]),
         Node.OverOp overop => new MathMLElement("mover", [Convert(overop.n), new MathMLElement("mo", $"{overop.b}", [("accent", $"{overop.c}")])]),
         Node.UnderOp underop => new MathMLElement("munder", [Convert(underop.n), new MathMLElement("mo", $"{underop.b}", [("accent", $"{underop.c}")])]),

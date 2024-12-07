@@ -23,7 +23,7 @@ public class MMultiscripts(MathMLElement Element) : ToLatexConverter(Element)
     private string ConvertPreScrpt()
     {
         var children = this.Element.Children;
-        MathMLElement sub, sup;
+        MathMLElement? sub, sup;
         if (children.Length >= 3 && IsPrescript(children[1]))
         {
             sub = children[2];

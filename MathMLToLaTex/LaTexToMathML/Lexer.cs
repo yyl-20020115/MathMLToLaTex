@@ -21,7 +21,7 @@ public class Lexer
     public char Current => this.current;
     public char Peek => this.peek;
 
-    protected char ReadChar()
+    public char ReadChar()
     {
         var c = this.current;
         this.current = this.peek;
