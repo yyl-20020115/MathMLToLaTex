@@ -63,17 +63,17 @@ public sealed class Test1
     {
         var count = 0;
         var bad = 0;
-        foreach (var test in tests)
+        foreach (var (mathml, latex, line_number) in tests)
         {
-            var result = MaTex.MathMLToLaTex.MathMLToLaTeXConverter.Convert(test.mathml);
+            var result = MaTex.MathMLToLaTex.MathMLToLaTeXConverter.Convert(mathml);
             try
             {
-                Assert.AreEqual(result, test.latex);
+                Assert.AreEqual(result, latex);
             }
             catch (Exception e)
             {
                 bad++;
-                System.Diagnostics.Debug.WriteLine($"\n\n({bad})index={count},line={test.line_number}:{result} -> {test.latex}\n\n");
+                System.Diagnostics.Debug.WriteLine($"\n\n({bad})index={count},line={line_number}:{result} -> {latex}\n\n");
             }
             count++;
         }
