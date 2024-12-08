@@ -2,7 +2,7 @@
 
 public abstract class Node
 {
-    public class Errror(string s) : Node { public readonly string s = s; };
+    public class Errror(string s) : Node { public readonly string s = s; }
     public class Number(string s) : Node { public readonly string s = s; }
     public class Letter(char c, Variant v) : Node { public readonly char c = c; public readonly Variant v = v; }
     public class Operator(char c) : Node { public readonly char c = c; }

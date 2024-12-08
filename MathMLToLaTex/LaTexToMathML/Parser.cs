@@ -24,7 +24,7 @@ public class Parser
     public (Node[] ns, LatexError? e) Parse()
     {
         List<Node> ns = [];
-        while (this.current is not Token.EOF)
+        while (this.current is not Token.EOF and not Token.Illegal)
         {
             ns.Add(ParseNode());
             this.NextToken();
@@ -101,29 +101,29 @@ public class Parser
         Node? node = null;
         switch (this.current)
         {
-            case Token.Number nt:
+            case Token.Number number:
                 {
-                    node = new Node.Number(nt.s);
+                    node = new Node.Number(number.s);
                 }
                 break;
-            case Token.Letter lt:
+            case Token.Letter letter:
                 {
-                    node = new Node.Letter(lt.c, lt.v);
+                    node = new Node.Letter(letter.c, letter.v);
                 }
                 break;
-            case Token.Operator ot:
+            case Token.Operator @operator:
                 {
-                    node = new Node.Operator(ot.c);
+                    node = new Node.Operator(@operator.c);
                 }
                 break;
-            case Token.Function ft:
+            case Token.Function function:
                 {
-                    node = new Node.Function(ft.s, null);
+                    node = new Node.Function(function.s, null);
                 }
                 break;
-            case Token.Space st:
+            case Token.Space space:
                 {
-                    node = new Node.Space(st.f);
+                    node = new Node.Space(space.f);
                 }
                 break;
             case Token.Sqrt:
@@ -352,7 +352,7 @@ public class Parser
                     }
                 }
                 break;
-            case Token.LBrace lbrace:
+            case Token.LBrace:
                 {
                     node = this.ParseGroup(new Token.RBrace()).node;
                 }

@@ -5,22 +5,22 @@ public class Test2
 {
     private readonly List<(string, string)> Tests =
     [
-            (@"0",            "<mn>0</mn>"),
-            (@"3.14",         "<mn>3.14</mn>"),
-            (@"x",            "<mi>x</mi>"),
-            (@"\alpha",       "<mi>α</mi>"),
-            (@"\phi/\varphi", "<mi>ϕ</mi><mo>/</mo><mi>φ</mi>"),
-            (@"x = 3+\alpha", "<mi>x</mi><mo>=</mo><mn>3</mn><mo>+</mo><mi>α</mi>"),
-            (@"\sin x",       "<mi>sin</mi><mi>x</mi>"),
-            (@"\sqrt 2",      "<msqrt><mn>2</mn></msqrt>"),
-            (@"\sqrt12",      "<msqrt><mn>1</mn></msqrt><mn>2</mn>"),
-            (@"\sqrt{x+2}",   "<msqrt><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt>"),
-            (@"\sqrt[3]{x}",  "<mroot><mi>x</mi><mn>3</mn></mroot>"),
-            (@"\frac{1}{2}",  "<mfrac><mn>1</mn><mn>2</mn></mfrac>"),
-            (@"\frac12",      "<mfrac><mn>1</mn><mn>2</mn></mfrac>"),
-            (@"\frac{12}{5}", "<mfrac><mn>12</mn><mn>5</mn></mfrac>"),
-            (@"x^2",          "<msup><mi>x</mi><mn>2</mn></msup>"),
-            (@"g_{\mu\nu}",   "<msub><mi>g</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub>"),
+            (@"0",            @"<mn>0</mn>"),
+            (@"3.14",         @"<mn>3.14</mn>"),
+            (@"x",            @"<mi>x</mi>"),
+            (@"\alpha",       @"<mi>α</mi>"),
+            (@"\phi/\varphi", @"<mi>ϕ</mi><mo>/</mo><mi>φ</mi>"),
+            (@"x = 3+\alpha", @"<mi>x</mi><mo>=</mo><mn>3</mn><mo>+</mo><mi>α</mi>"),
+            (@"\sin x",       @"<mi>sin</mi><mi>x</mi>"),
+            (@"\sqrt 2",      @"<msqrt><mn>2</mn></msqrt>"),
+            (@"\sqrt12",      @"<msqrt><mn>1</mn></msqrt><mn>2</mn>"),
+            (@"\sqrt{x+2}",   @"<msqrt><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></msqrt>"),
+            (@"\sqrt[3]{x}",  @"<mroot><mi>x</mi><mn>3</mn></mroot>"),
+            (@"\frac{1}{2}",  @"<mfrac><mn>1</mn><mn>2</mn></mfrac>"),
+            (@"\frac12",      @"<mfrac><mn>1</mn><mn>2</mn></mfrac>"),
+            (@"\frac{12}{5}", @"<mfrac><mn>12</mn><mn>5</mn></mfrac>"),
+            (@"x^2",          @"<msup><mi>x</mi><mn>2</mn></msup>"),
+            (@"g_{\mu\nu}",   @"<msub><mi>g</mi><mrow><mi>μ</mi><mi>ν</mi></mrow></msub>"),
             (@"\dot{x}",      "<mover><mi>x</mi><mo accent=\"true\">\\u{02d9}</mo></mover>"),
             (@"\sin x",       @"<mi>sin</mi><mi>x</mi>"),
             (@"\operatorname{sn} x", @"<mi>sn</mi><mi>x</mi>"),
@@ -54,7 +54,7 @@ public class Test2
         var bad = 0;
         for (var i = 0; i < Tests.Count; i++)
         {
-            (string mml, string latex) = Tests[i];
+            (string latex, string mml) = Tests[i];
 
             var result = MaTeX.LaTexToMathML.LaTexToMathMLConverter.Convert(latex);
             try
