@@ -101,5 +101,6 @@ public class Lexer
                 ? this.ReadNumber()
                 : this.current.IsAsciiLetter()
                     ? new Token.Letter(this.current, Variant.Italic)
-                    : new Token.Letter(this.current, Variant.Normal);
+                    : new Token.Letter(this.current, Variant.Normal)
+        ;
 }
