@@ -36,7 +36,7 @@ public sealed class Test1
                     }
                     mathml = r?.ToString() ?? mathml;
                 }
-                catch (Exception e)
+                catch (Exception)
                 {
                     good = false;
                 }
@@ -70,7 +70,7 @@ public sealed class Test1
             {
                 Assert.AreEqual(result, latex);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 bad++;
                 System.Diagnostics.Debug.WriteLine($"\n\n({bad})index={count},line={line_number}:{result} -> {latex}\n\n");
