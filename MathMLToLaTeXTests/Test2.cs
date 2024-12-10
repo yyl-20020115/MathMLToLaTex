@@ -55,7 +55,6 @@ public class Test2
         for (var i = 0; i < Tests.Count; i++)
         {
             (string latex, string mml) = Tests[i];
-
             var result = MaTeX.LaTexToMathML.LaTexToMathMLConverter.Convert(latex);
             try
             {
